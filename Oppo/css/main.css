@@ -307,7 +307,7 @@
   padding: 300px 0 200px 0;
 }
 
-.section-two__battery .battery-title {
+.section-two__battery .battery__title {
   font-size: 54px;
   font-family: "Oppo-2019044a-Black", Arial, sans-serif;
   color: white;
@@ -323,7 +323,7 @@
           align-items: flex-start;
 }
 
-.section-two__battery .battery-subtitle {
+.section-two__battery .battery__subtitle {
   font-size: 36px;
   font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
   color: white;
@@ -331,7 +331,7 @@
   margin: 50px 0 70px 0;
 }
 
-.section-two__battery .battery-description {
+.section-two__battery .battery__description {
   font-size: 24px;
   font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
   color: white;
@@ -340,7 +340,7 @@
 
 .section-two-figure {
   position: absolute;
-  right: 180px;
+  right: 140px;
   top: 80px;
 }
 
@@ -369,5 +369,61 @@
   font-size: 24px;
   font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
   color: #fffefe;
+}
+
+.section-three__screen .screen-specs .specs__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-three__screen .screen-specs .specs__details + .specs__details {
+  margin-top: 60px;
+}
+
+.section-three__screen .screen-specs .specs__details .details__number__fhd {
+  font-size: 14px;
+  font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: 0;
+  top: 10px;
+}
+
+.section-three__screen .screen-specs .details__label {
+  font-size: 14px;
+  font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+  color: white;
+}
+
+.section-three__screen .screen-specs .details__number {
+  font-size: 36px;
+  font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+.section-three__spiral {
+  background-image: url("../images/dot_spiral.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+}
+
+.section-three__figure {
+  text-align: center;
+  height: 395px;
+  overflow: hidden;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=main.css.map */
