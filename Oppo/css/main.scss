@@ -1,0 +1,249 @@
+.center-point-container {
+  position: relative;
+}
+.center-point {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000000000;
+}
+
+// ==============================================================================
+$viewWidth: 100vw;
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-header {
+  .icon-bar {
+    background-color: black;
+  }
+}
+
+.navbar-list {
+  display: flex;
+  ul {
+    flex: 1 1 auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+
+    li {
+      margin: 0 10px;
+      display: inline-block;
+      cursor: pointer;
+      padding: 15px 0;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+
+    ul {
+      li {
+        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      }
+    }
+  }
+}
+
+.navbar-region {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.section-one {
+  position: relative;
+  height: 100vh;
+  background-color: #1a0f32;
+  background-image: url("../images/section1_bg.png");
+  background-size: cover;
+  background-position: 50%;
+  padding: 0 80px;
+  overflow: hidden;
+  &::before {
+    display: table;
+    content: " ";
+  }
+}
+
+.section-one__headline {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: absolute;
+  top: 65px;
+  left: 80px;
+  font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
+
+  .headline__title {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .headline__subtitle {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+  }
+}
+
+.section-one__date {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35px;
+  right: 80px;
+  font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+
+  .date__text {
+    font-size: 23px;
+    color: rgb(254, 254, 254);
+    padding: 0 30px;
+    line-height: 1;
+  }
+  .date__box {
+    border-radius: 25px;
+    background-color: #df689f;
+    padding: 0 30px;
+    height: 60px;
+    margin-top: 10px;
+  }
+  .date__value {
+    display: inline-block;
+    line-height: 55px;
+    font-size: 39px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.section-one__promotion {
+  border-radius: 19px;
+  background-color: rgb(223, 104, 159);
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  padding: 10px;
+  font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+
+  .promotion__border {
+    border: 4px solid rgb(193, 80, 133);
+    border-radius: 11px;
+    padding: 10px;
+  }
+
+  .promotion__offer {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    padding: 20px 0;
+
+    .offer__text {
+      font-size: 27px;
+      color: rgb(254, 254, 254);
+    }
+    .offer__number {
+      font-size: 50px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      margin-top: 20px;
+    }
+    .offer__number__unit {
+      font-size: 34px;
+    }
+  }
+
+  .promotion__line {
+    background-color: rgb(255, 255, 255);
+    width: 109px;
+    height: 3px;
+    margin: 0;
+  }
+
+  .promotion__installment {
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+
+    .promotion__installment__value {
+      font-size: 77px;
+      font-weight: bold;
+      line-height: 1;
+      margin-right: 10px;
+    }
+    .promotion__installment__text {
+      display: flex;
+      flex-direction: column;
+      font-size: 27px;
+    }
+  }
+}
+
+.section-one__spiral-pink {
+  background-image: url("../images/spiral-pink.png");
+  background-position: 50% bottom;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.phone {
+  background-image: url("../images/phone.png");
+  background-size: cover;
+  height: 924px;
+  width: 741px;
+  position: absolute;
+  left: 35%;
+  top: 24%;
+
+  @media screen and (max-width: 767px) {
+    height: 870px;
+    width: 700px;
+  }
+}
+
+.section-one__phonename {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  color: rgb(255, 255, 255);
+  font-size: 278px;
+  font-family: "Oppo-2019044a-Semibold", Arial, sans-serif;
+
+  .phonename__oppo {
+    letter-spacing: -20px;
+  }
+
+  .phonename__a92 {
+    letter-spacing: -35px;
+    margin-left: 30px;
+  }
+}
+
+.section-one__price {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  font-size: 51px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+
+  .price__unit {
+    font-size: 36px;
+  }
+}

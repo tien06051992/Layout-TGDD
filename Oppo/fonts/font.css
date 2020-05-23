@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Oppo-2019044a-Semibold';
+    src: url('Oppo-2019044a-Semibold.woff2') format('woff2'),
+        url('Oppo-2019044a-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oppo-2019044a-Regular';
+    src: url('Oppo-2019044a-Regular.woff2') format('woff2'),
+        url('Oppo-2019044a-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oppo-2019044a-Light';
+    src: url('Oppo-2019044a-Light.woff2') format('woff2'),
+        url('Oppo-2019044a-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oppo-2019044a-UltraLight';
+    src: url('Oppo-2019044a-UltraLight.woff2') format('woff2'),
+        url('Oppo-2019044a-UltraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oppo-2019044a-Bold';
+    src: url('Oppo-2019044a-Bold.woff2') format('woff2'),
+        url('Oppo-2019044a-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oppo-2019044a-Black';
+    src: url('Oppo-2019044a-Black.woff2') format('woff2'),
+        url('Oppo-2019044a-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
