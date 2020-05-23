@@ -1,22 +1,373 @@
+.center-point-container {
+  position: relative;
+}
 
+.center-point {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1000000000;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.navbar {
+  background-color: white;
+}
 
+.navbar-header .icon-bar {
+  background-color: black;
+}
 
+.navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
+.navbar-list ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
+.navbar-list ul li {
+  margin: 0 10px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 0;
+}
 
+@media screen and (max-width: 767px) {
+  .navbar-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-list ul li {
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+}
 
+.navbar-region {
+  padding: 15px 0;
+  text-align: center;
+}
 
+.section-one {
+  position: relative;
+  height: 100vh;
+  background-color: #1a0f32;
+  background-image: url("../images/section1_bg.png");
+  background-size: cover;
+  background-position: 50%;
+  padding: 0 80px;
+  overflow: hidden;
+}
 
+.section-one::before {
+  display: table;
+  content: " ";
+}
 
+.section-one__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  position: absolute;
+  top: 65px;
+  left: 80px;
+  font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
+}
 
+.section-one__headline .headline__title {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
+.section-one__headline .headline__subtitle {
+  font-size: 18px;
+  color: white;
+  margin-top: 15px;
+}
 
+.section-one__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 35px;
+  right: 80px;
+  font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+}
 
+.section-one__date .date__text {
+  font-size: 23px;
+  color: #fefefe;
+  padding: 0 30px;
+  line-height: 1;
+}
 
+.section-one__date .date__box {
+  border-radius: 25px;
+  background-color: #df689f;
+  padding: 0 30px;
+  height: 60px;
+  margin-top: 10px;
+}
 
+.section-one__date .date__value {
+  display: inline-block;
+  line-height: 55px;
+  font-size: 39px;
+  font-weight: bold;
+  color: white;
+}
 
+.section-one__promotion {
+  border-radius: 19px;
+  background-color: #df689f;
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  padding: 10px;
+  font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+}
 
+.section-one__promotion .promotion__border {
+  border: 4px solid #c15085;
+  border-radius: 11px;
+  padding: 10px;
+}
+
+.section-one__promotion .promotion__offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 1;
+  padding: 20px 0;
+}
+
+.section-one__promotion .promotion__offer .offer__text {
+  font-size: 27px;
+  color: #fefefe;
+}
+
+.section-one__promotion .promotion__offer .offer__number {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+.section-one__promotion .promotion__offer .offer__number__unit {
+  font-size: 34px;
+}
+
+.section-one__promotion .promotion__line {
+  background-color: white;
+  width: 109px;
+  height: 3px;
+  margin: 0;
+}
+
+.section-one__promotion .promotion__installment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding: 20px 0;
+}
+
+.section-one__promotion .promotion__installment .promotion__installment__value {
+  font-size: 77px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 10px;
+}
+
+.section-one__promotion .promotion__installment .promotion__installment__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 27px;
+}
+
+.section-one__spiral-pink {
+  background-image: url("../images/spiral-pink.png");
+  background-position: 50% bottom;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.phone {
+  background-image: url("../images/phone-1.png");
+  background-size: cover;
+  height: 924px;
+  width: 741px;
+  position: absolute;
+  left: 35%;
+  top: 24%;
+}
+
+@media screen and (max-width: 767px) {
+  .phone {
+    height: 870px;
+    width: 700px;
+  }
+}
+
+.section-one__phonename {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  color: white;
+  font-size: 278px;
+  font-family: "Oppo-2019044a-Semibold", Arial, sans-serif;
+}
+
+.section-one__phonename .phonename__oppo {
+  letter-spacing: -20px;
+}
+
+.section-one__phonename .phonename__a92 {
+  letter-spacing: -35px;
+  margin-left: 30px;
+}
+
+.section-one__price {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  font-size: 51px;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+}
+
+.section-one__price .price__unit {
+  font-size: 36px;
+}
+
+.section-two-three-wrapper {
+  background-image: url("../images/section2_3_bg.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.text-gradient {
+  background: #6bd7ff;
+  background: -webkit-gradient(linear, left top, right top, from(#6bd7ff), to(#fd62f4));
+  background: linear-gradient(90deg, #6bd7ff 0%, #fd62f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-two {
+  position: relative;
+  padding: 0 15.6%;
+}
+
+.section-two__battery {
+  width: 65%;
+  padding: 300px 0 200px 0;
+}
+
+.section-two__battery .battery-title {
+  font-size: 54px;
+  font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.section-two__battery .battery-subtitle {
+  font-size: 36px;
+  font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+  margin: 50px 0 70px 0;
+}
+
+.section-two__battery .battery-description {
+  font-size: 24px;
+  font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+  color: white;
+  width: 85%;
+}
+
+.section-two-figure {
+  position: absolute;
+  right: 180px;
+  top: 80px;
+}
+
+.section-three__screen {
+  width: 1376px;
+  border-radius: 30px;
+  background-color: #22173d;
+  margin: 40px auto;
+  padding: 50px 28px 60px 28px;
+}
+
+.section-three__screen .screen-title {
+  font-size: 50px;
+  font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+  color: white;
+}
+
+.section-three__screen .screen-subtitle {
+  font-size: 36px;
+  font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
+  color: white;
+  margin: 50px 0 75px 0;
+}
+
+.section-three__screen .screen-description {
+  font-size: 24px;
+  font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+  color: #fffefe;
+}
+/*# sourceMappingURL=main.css.map */

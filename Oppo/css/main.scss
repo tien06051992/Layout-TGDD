@@ -14,7 +14,6 @@
 }
 
 // ==============================================================================
-$viewWidth: 100vw;
 
 .navbar {
   background-color: white;
@@ -202,7 +201,7 @@ $viewWidth: 100vw;
 }
 
 .phone {
-  background-image: url("../images/phone.png");
+  background-image: url("../images/phone-1.png");
   background-size: cover;
   height: 924px;
   width: 741px;
@@ -245,5 +244,84 @@ $viewWidth: 100vw;
 
   .price__unit {
     font-size: 36px;
+  }
+}
+
+.section-two-three-wrapper {
+  background-image: url("../images/section2_3_bg.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.text-gradient {
+  background: rgb(107, 215, 255);
+  background: linear-gradient(90deg, #6bd7ff 0%, #fd62f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-two {
+  position: relative;
+  padding: 0 15.6%;
+}
+
+.section-two__battery {
+  width: 65%;
+  padding: 300px 0 200px 0;
+
+  .battery-title {
+    font-size: 54px;
+    font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .battery-subtitle {
+    font-size: 36px;
+    font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 50px 0 70px 0;
+  }
+
+  .battery-description {
+    font-size: 24px;
+    font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    width: 85%;
+  }
+}
+
+.section-two-figure {
+  position: absolute;
+  right: 180px;
+  top: 80px;
+}
+
+.section-three__screen {
+  width: 1376px;
+  border-radius: 30px;
+  background-color: #22173d;
+  margin: 40px auto;
+  padding: 50px 28px 60px 28px;
+
+  .screen-title {
+    font-size: 50px;
+    font-family: "Oppo-2019044a-Black", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  .screen-subtitle {
+    font-size: 36px;
+    font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 50px 0 75px 0;
+  }
+  .screen-description {
+    font-size: 24px;
+    font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+    color: rgb(255, 254, 254);
   }
 }
