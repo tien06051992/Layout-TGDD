@@ -249,6 +249,26 @@ and open the template in the editor.
   .section-one .section-one__price .price__unit {
     font-size: 24px;
   }
+  .section-two .section-two__battery {
+    margin: 50px 0;
+  }
+  .section-two .section-two__battery .battery__title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-two .section-two__battery .text-content-title {
+    font-size: 7vw;
+  }
+  .section-two .section-two__battery .text-content-subtitle {
+    font-size: 6vw;
+  }
+  .section-two .section-two__battery .text-content-description {
+    font-size: 5vw;
+  }
+  .section-two .section-two-figure {
+    margin: 0;
+  }
   .section-seven .col-md-6 {
     padding: 0 30px;
   }
@@ -266,6 +286,26 @@ and open the template in the editor.
   .m-center {
     text-align: center;
   }
+  .section-two .section-two__battery {
+    margin: 50px 0;
+  }
+  .section-two .section-two__battery .battery__title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-two .section-two__battery .text-content-title {
+    font-size: 7vw;
+  }
+  .section-two .section-two__battery .text-content-subtitle {
+    font-size: 6vw;
+  }
+  .section-two .section-two__battery .text-content-description {
+    font-size: 5vw;
+  }
+  .section-two .section-two-figure {
+    margin: 0;
+  }
   .section-seven .col-md-6 {
     padding: 0 30px;
   }
@@ -282,6 +322,26 @@ and open the template in the editor.
 @media only screen and (min-width: 100px) and (max-width: 479px) {
   .m-center {
     text-align: center;
+  }
+  .section-two .section-two__battery {
+    margin: 50px 0;
+  }
+  .section-two .section-two__battery .battery__title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-two .section-two__battery .text-content-title {
+    font-size: 7vw;
+  }
+  .section-two .section-two__battery .text-content-subtitle {
+    font-size: 6vw;
+  }
+  .section-two .section-two__battery .text-content-description {
+    font-size: 5vw;
+  }
+  .section-two .section-two-figure {
+    margin: 0;
   }
   .section-seven .col-md-6 {
     padding: 0 30px;

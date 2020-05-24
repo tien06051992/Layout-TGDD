@@ -321,12 +321,10 @@
 
 .section-two {
   position: relative;
-  padding: 0 14%;
 }
 
 .section-two__battery {
-  width: 65%;
-  padding: 300px 0 200px 0;
+  margin: 200px 0;
   color: white;
 }
 
@@ -347,14 +345,8 @@
   margin: 50px 0 70px 0;
 }
 
-.section-two__battery .battery__description {
-  width: 85%;
-}
-
 .section-two-figure {
-  position: absolute;
-  right: 140px;
-  top: 80px;
+  margin-top: 200px;
 }
 
 .section-two-figure img {
