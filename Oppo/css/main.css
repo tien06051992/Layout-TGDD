@@ -343,7 +343,6 @@
 }
 
 .section-three__figure-wrapper {
-  z-index: 1;
   position: relative;
 }
 
@@ -363,10 +362,10 @@
   max-width: 1376px;
   border-radius: 30px;
   margin: 40px auto;
-  padding: 50px 28px 60px 28px;
+  padding: 50px 30px;
   position: relative;
   overflow: hidden;
-  z-index: 2;
+  z-index: 1;
 }
 
 .section-three__screen .section-three__screen__overlay {
@@ -379,27 +378,44 @@
   height: 100%;
 }
 
-.section-three__screen .screen__text {
+.section-three__screen .screen__content-wrapper {
   color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.section-three__screen .screen__text .screen-title {
-  font-size: 50px;
+.section-three__screen .screen__content-wrapper .screen__text__headline {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 65%;
+          flex: 0 1 65%;
 }
 
-.section-three__screen .screen__text .screen-subtitle {
-  margin: 50px 0 75px 0;
+.section-three__screen .screen__content-wrapper .screen__specs {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 35%;
+          flex: 0 1 35%;
 }
 
-.section-three__screen .screen__text .screen-description {
-  width: 96%;
+.section-three__screen .screen__content-wrapper .screen-description {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 65%;
+          flex: 0 1 65%;
 }
 
-.section-three__screen .screen-specs {
+.section-three__screen .screen-subtitle {
+  margin: 60px 0;
+}
+
+.section-three__screen .screen__specs {
   color: white;
+  position: relative;
 }
 
-.section-three__screen .screen-specs .specs__details {
+.section-three__screen .screen__specs .specs__details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,11 +428,11 @@
           align-items: center;
 }
 
-.section-three__screen .screen-specs .specs__details + .specs__details {
+.section-three__screen .screen__specs .specs__details + .specs__details {
   margin-top: 60px;
 }
 
-.section-three__screen .screen-specs .specs__details .details__number__fhd {
+.section-three__screen .screen__specs .specs__details .details__number__fhd {
   font-size: 14px;
   font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
   position: absolute;
@@ -426,13 +442,13 @@
   top: 10px;
 }
 
-.section-three__screen .screen-specs .details__label {
+.section-three__screen .screen__specs .details__label {
   font-size: 14px;
   font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
   color: white;
 }
 
-.section-three__screen .screen-specs .details__number {
+.section-three__screen .screen__specs .details__number {
   font-size: 36px;
   font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
   color: white;

@@ -356,6 +356,51 @@ and open the template in the editor.
     }
   }
 
+  .section-three {
+    .screen__content-wrapper {
+      flex-direction: column;
+
+      .text-content-title {
+        font-size: 7vw;
+      }
+      .text-content-subtitle {
+        font-size: 6vw;
+      }
+      .text-content-description {
+        font-size: 5vw;
+      }
+
+      .screen__text__headline {
+        .screen-subtitle {
+          margin: 40px 0;
+        }
+      }
+
+      .screen__specs {
+        display: flex;
+        justify-content: space-between;
+
+        .specs__details {
+          margin-top: 0;
+        }
+        .details__label {
+          font-size: 8px;
+        }
+        .details__number {
+          font-size: 12px;
+          .details__number__fhd {
+            font-size: 6px;
+            top: 3px;
+          }
+        }
+      }
+
+      .screen-description {
+        margin-top: 40px;
+      }
+    }
+  }
+
   .section-seven {
     .col-md-6 {
       padding: 0 30px;
@@ -485,6 +530,51 @@ and open the template in the editor.
 
     .section-two-figure {
       margin: 0;
+    }
+  }
+
+  .section-three {
+    .screen__content-wrapper {
+      flex-direction: column;
+
+      .text-content-title {
+        font-size: 7vw;
+      }
+      .text-content-subtitle {
+        font-size: 6vw;
+      }
+      .text-content-description {
+        font-size: 5vw;
+      }
+
+      .screen__text__headline {
+        .screen-subtitle {
+          margin: 40px 0;
+        }
+      }
+
+      .screen__specs {
+        display: flex;
+        justify-content: space-between;
+
+        .specs__details {
+          margin-top: 0;
+        }
+        .details__label {
+          font-size: 8px;
+        }
+        .details__number {
+          font-size: 12px;
+          .details__number__fhd {
+            font-size: 6px;
+            top: 3px;
+          }
+        }
+      }
+
+      .screen-description {
+        margin-top: 40px;
+      }
     }
   }
 

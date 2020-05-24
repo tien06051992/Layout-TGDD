@@ -310,6 +310,48 @@ and open the template in the editor.
   .section-two .section-two-figure {
     margin: 0;
   }
+  .section-three .screen__content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-three .screen__content-wrapper .text-content-title {
+    font-size: 7vw;
+  }
+  .section-three .screen__content-wrapper .text-content-subtitle {
+    font-size: 6vw;
+  }
+  .section-three .screen__content-wrapper .text-content-description {
+    font-size: 5vw;
+  }
+  .section-three .screen__content-wrapper .screen__text__headline .screen-subtitle {
+    margin: 40px 0;
+  }
+  .section-three .screen__content-wrapper .screen__specs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-three .screen__content-wrapper .screen__specs .specs__details {
+    margin-top: 0;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__label {
+    font-size: 8px;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number {
+    font-size: 12px;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number .details__number__fhd {
+    font-size: 6px;
+    top: 3px;
+  }
+  .section-three .screen__content-wrapper .screen-description {
+    margin-top: 40px;
+  }
   .section-seven .col-md-6 {
     padding: 0 30px;
   }
@@ -429,6 +471,48 @@ and open the template in the editor.
   }
   .section-two .section-two-figure {
     margin: 0;
+  }
+  .section-three .screen__content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-three .screen__content-wrapper .text-content-title {
+    font-size: 7vw;
+  }
+  .section-three .screen__content-wrapper .text-content-subtitle {
+    font-size: 6vw;
+  }
+  .section-three .screen__content-wrapper .text-content-description {
+    font-size: 5vw;
+  }
+  .section-three .screen__content-wrapper .screen__text__headline .screen-subtitle {
+    margin: 40px 0;
+  }
+  .section-three .screen__content-wrapper .screen__specs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-three .screen__content-wrapper .screen__specs .specs__details {
+    margin-top: 0;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__label {
+    font-size: 8px;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number {
+    font-size: 12px;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number .details__number__fhd {
+    font-size: 6px;
+    top: 3px;
+  }
+  .section-three .screen__content-wrapper .screen-description {
+    margin-top: 40px;
   }
   .section-seven .col-md-6 {
     padding: 0 30px;
