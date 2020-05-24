@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  .section-seven {
+    .night-mode__text {
+      margin-top: 0;
+      .text-content-title {
+        font-size: 43px;
+      }
+      .text-content-subtitle {
+        font-size: 32px;
+      }
+    }
+  }
+}
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .m-center {
+    text-align: center;
+  }
+  .section-seven {
+    .col-md-6 {
+      padding: 0 30px;
+    }
+
+    .night-mode__text .night-mode__specs {
+      margin: 50px 0;
+      justify-content: center;
+    }
+  }
+}
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .m-center {
+    text-align: center;
+  }
+  .section-seven {
+    .col-md-6 {
+      padding: 0 30px;
+    }
+    .night-mode__text .night-mode__specs {
+      margin: 50px 0;
+      justify-content: center;
+    }
+  }
+}
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .m-center {
+    text-align: center;
+  }
+  .section-seven {
+    .col-md-6 {
+      padding: 0 30px;
+    }
+    .night-mode__text .night-mode__specs {
+      margin: 50px 0;
+      justify-content: center;
+    }
+  }
+}
