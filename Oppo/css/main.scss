@@ -220,22 +220,13 @@
 
 .section-one__spiral-pink {
   position: absolute;
-  left: -680px;
-  top: -512px;
+  left: -86px;
+  top: -516px;
 }
 
 .phone {
-  background-image: url("../images/phone-1.png");
-  background-size: cover;
-  height: 924px;
-  width: 741px;
   position: relative;
   z-index: 1;
-
-  @media screen and (max-width: 767px) {
-    height: 870px;
-    width: 700px;
-  }
 }
 
 .section-one__phonename {
