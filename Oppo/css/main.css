@@ -99,7 +99,6 @@
   background-image: url("../images/section1_bg.png");
   background-size: cover;
   background-position: 50%;
-  padding: 0 80px;
   overflow: hidden;
 }
 
@@ -250,15 +249,16 @@
   font-size: 27px;
 }
 
-.section-one__spiral-pink {
-  background-image: url("../images/spiral-pink.png");
-  background-position: 50% bottom;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
+.section-one__phone-wrapper {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 35%;
+  top: 24%;
+}
+
+.section-one__spiral-pink {
+  position: absolute;
+  left: -680px;
+  top: -512px;
 }
 
 .phone {
@@ -266,9 +266,8 @@
   background-size: cover;
   height: 924px;
   width: 741px;
-  position: absolute;
-  left: 35%;
-  top: 24%;
+  position: relative;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
@@ -283,17 +282,20 @@
   left: 80px;
   bottom: 80px;
   color: white;
-  font-size: 278px;
+  font-size: 14.5vw;
   font-family: "Oppo-2019044a-Semibold", Arial, sans-serif;
 }
 
 .section-one__phonename .phonename__oppo {
   letter-spacing: -20px;
+  position: relative;
 }
 
 .section-one__phonename .phonename__a92 {
   letter-spacing: -35px;
   margin-left: 30px;
+  z-index: 1;
+  position: relative;
 }
 
 .section-one__price {
@@ -353,6 +355,10 @@
   position: absolute;
   right: 140px;
   top: 80px;
+}
+
+.section-two-figure img {
+  width: 100%;
 }
 
 .section-three__figure-wrapper {

@@ -4,9 +4,181 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 
+/* #Laptop 1366px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1239px) and (max-width: 1366px) {
+  .section-one {
+    .section-one__headline {
+      .headline__title {
+        font-size: 32px;
+      }
+      .headline__subtitle {
+        font-size: 17px;
+      }
+    }
+
+    .section-one__phone-wrapper {
+      top: 32%;
+      left: 31%;
+
+      .section-one__spiral-pink {
+        left: -762px;
+        top: -523px;
+      }
+      .phone {
+        height: 780px;
+        width: 625px;
+      }
+    }
+
+    .section-one__date {
+      .date__text {
+        font-size: 21px;
+      }
+      .date__box {
+        height: 45px;
+        .date__value {
+          font-size: 24px;
+          line-height: 40px;
+        }
+      }
+    }
+
+    .section-one__promotion {
+      .promotion__offer {
+        padding-top: 10px;
+        .offer__text {
+          font-size: 22px;
+        }
+
+        .offer__number {
+          font-size: 32px;
+
+          .offer__number__unit {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .promotion__installment {
+        padding-bottom: 10px;
+        .promotion__installment__value {
+          font-size: 62px;
+        }
+        .promotion__installment__text {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .section-one__phonename {
+      font-size: 13.5vw;
+      bottom: 117px;
+      .phonename__oppo {
+        letter-spacing: -15px;
+      }
+      .phonename__a92 {
+        letter-spacing: -25px;
+      }
+    }
+  }
+}
+
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
+  .section-one {
+    .section-one__headline {
+      left: 40px;
+      top: 80px;
+      .headline__title {
+        font-size: 20px;
+      }
+      .headline__subtitle {
+        font-size: 12px;
+      }
+    }
+
+    .section-one__phone-wrapper {
+      left: 23%;
+      top: 38%;
+
+      .section-one__spiral-pink {
+        left: -847px;
+        top: -529px;
+      }
+      .phone {
+        height: 600px;
+        width: 480px;
+      }
+    }
+
+    .section-one__date {
+      right: 40px;
+      top: 80px;
+      .date__text {
+        font-size: 18px;
+      }
+      .date__box {
+        height: 40px;
+        padding: 0 20px;
+        .date__value {
+          font-size: 18px;
+          line-height: 39px;
+        }
+      }
+    }
+
+    .section-one__promotion {
+      right: 40px;
+      bottom: 130px;
+
+      .promotion__offer {
+        padding: 10px 0;
+        .offer__text {
+          font-size: 17px;
+        }
+        .offer__number {
+          font-size: 20px;
+          .offer__number__unit {
+            font-size: 17px;
+          }
+        }
+      }
+
+      .promotion__installment {
+        padding: 10px 0;
+        .promotion__installment__value {
+          font-size: 42px;
+        }
+        .promotion__installment__text {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .section-one__phonename {
+      font-size: 13.5vw;
+      left: 40px;
+      bottom: 215px;
+      .phonename__oppo {
+        letter-spacing: -13px;
+      }
+      .phonename__a92 {
+        letter-spacing: -15px;
+      }
+    }
+
+    .section-one__price {
+      left: 40px;
+      font-size: 26px;
+      bottom: 130px;
+      .price__unit {
+        font-size: 24px;
+      }
+    }
+  }
+
   .section-seven {
     .night-mode__text {
       margin-top: 0;
@@ -25,6 +197,99 @@ and open the template in the editor.
   .m-center {
     text-align: center;
   }
+
+  .section-one {
+    .section-one__headline {
+      left: 40px;
+      top: 80px;
+      .headline__title {
+        font-size: 20px;
+      }
+      .headline__subtitle {
+        font-size: 12px;
+      }
+    }
+
+    .section-one__phone-wrapper {
+      left: 23%;
+      top: 38%;
+
+      .section-one__spiral-pink {
+        left: -847px;
+        top: -529px;
+      }
+      .phone {
+        height: 600px;
+        width: 480px;
+      }
+    }
+
+    .section-one__date {
+      right: 40px;
+      top: 80px;
+      .date__text {
+        font-size: 18px;
+      }
+      .date__box {
+        height: 40px;
+        padding: 0 20px;
+        .date__value {
+          font-size: 18px;
+          line-height: 39px;
+        }
+      }
+    }
+
+    .section-one__promotion {
+      right: 40px;
+      bottom: 130px;
+
+      .promotion__offer {
+        padding: 10px 0;
+        .offer__text {
+          font-size: 17px;
+        }
+        .offer__number {
+          font-size: 20px;
+          .offer__number__unit {
+            font-size: 17px;
+          }
+        }
+      }
+
+      .promotion__installment {
+        padding: 10px 0;
+        .promotion__installment__value {
+          font-size: 42px;
+        }
+        .promotion__installment__text {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .section-one__phonename {
+      font-size: 100px;
+      left: 40px;
+      bottom: 215px;
+      .phonename__oppo {
+        letter-spacing: -13px;
+      }
+      .phonename__a92 {
+        letter-spacing: -15px;
+      }
+    }
+
+    .section-one__price {
+      left: 40px;
+      font-size: 26px;
+      bottom: 130px;
+      .price__unit {
+        font-size: 24px;
+      }
+    }
+  }
+
   .section-seven {
     .col-md-6 {
       padding: 0 30px;

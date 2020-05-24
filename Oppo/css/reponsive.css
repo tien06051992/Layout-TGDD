@@ -3,9 +3,154 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
+/* #Laptop 1366px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1239px) and (max-width: 1366px) {
+  .section-one .section-one__headline .headline__title {
+    font-size: 32px;
+  }
+  .section-one .section-one__headline .headline__subtitle {
+    font-size: 17px;
+  }
+  .section-one .section-one__phone-wrapper {
+    top: 32%;
+    left: 31%;
+  }
+  .section-one .section-one__phone-wrapper .section-one__spiral-pink {
+    left: -762px;
+    top: -523px;
+  }
+  .section-one .section-one__phone-wrapper .phone {
+    height: 780px;
+    width: 625px;
+  }
+  .section-one .section-one__date .date__text {
+    font-size: 21px;
+  }
+  .section-one .section-one__date .date__box {
+    height: 45px;
+  }
+  .section-one .section-one__date .date__box .date__value {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .section-one .section-one__promotion .promotion__offer {
+    padding-top: 10px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__text {
+    font-size: 22px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number {
+    font-size: 32px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number .offer__number__unit {
+    font-size: 24px;
+  }
+  .section-one .section-one__promotion .promotion__installment {
+    padding-bottom: 10px;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__value {
+    font-size: 62px;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__text {
+    font-size: 24px;
+  }
+  .section-one .section-one__phonename {
+    font-size: 13.5vw;
+    bottom: 117px;
+  }
+  .section-one .section-one__phonename .phonename__oppo {
+    letter-spacing: -15px;
+  }
+  .section-one .section-one__phonename .phonename__a92 {
+    letter-spacing: -25px;
+  }
+}
+
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
+  .section-one .section-one__headline {
+    left: 40px;
+    top: 80px;
+  }
+  .section-one .section-one__headline .headline__title {
+    font-size: 20px;
+  }
+  .section-one .section-one__headline .headline__subtitle {
+    font-size: 12px;
+  }
+  .section-one .section-one__phone-wrapper {
+    left: 23%;
+    top: 38%;
+  }
+  .section-one .section-one__phone-wrapper .section-one__spiral-pink {
+    left: -847px;
+    top: -529px;
+  }
+  .section-one .section-one__phone-wrapper .phone {
+    height: 600px;
+    width: 480px;
+  }
+  .section-one .section-one__date {
+    right: 40px;
+    top: 80px;
+  }
+  .section-one .section-one__date .date__text {
+    font-size: 18px;
+  }
+  .section-one .section-one__date .date__box {
+    height: 40px;
+    padding: 0 20px;
+  }
+  .section-one .section-one__date .date__box .date__value {
+    font-size: 18px;
+    line-height: 39px;
+  }
+  .section-one .section-one__promotion {
+    right: 40px;
+    bottom: 130px;
+  }
+  .section-one .section-one__promotion .promotion__offer {
+    padding: 10px 0;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__text {
+    font-size: 17px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number {
+    font-size: 20px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number .offer__number__unit {
+    font-size: 17px;
+  }
+  .section-one .section-one__promotion .promotion__installment {
+    padding: 10px 0;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__value {
+    font-size: 42px;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__text {
+    font-size: 16px;
+  }
+  .section-one .section-one__phonename {
+    font-size: 13.5vw;
+    left: 40px;
+    bottom: 215px;
+  }
+  .section-one .section-one__phonename .phonename__oppo {
+    letter-spacing: -13px;
+  }
+  .section-one .section-one__phonename .phonename__a92 {
+    letter-spacing: -15px;
+  }
+  .section-one .section-one__price {
+    left: 40px;
+    font-size: 26px;
+    bottom: 130px;
+  }
+  .section-one .section-one__price .price__unit {
+    font-size: 24px;
+  }
   .section-seven .night-mode__text {
     margin-top: 0;
   }
@@ -22,6 +167,87 @@ and open the template in the editor.
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .m-center {
     text-align: center;
+  }
+  .section-one .section-one__headline {
+    left: 40px;
+    top: 80px;
+  }
+  .section-one .section-one__headline .headline__title {
+    font-size: 20px;
+  }
+  .section-one .section-one__headline .headline__subtitle {
+    font-size: 12px;
+  }
+  .section-one .section-one__phone-wrapper {
+    left: 23%;
+    top: 38%;
+  }
+  .section-one .section-one__phone-wrapper .section-one__spiral-pink {
+    left: -847px;
+    top: -529px;
+  }
+  .section-one .section-one__phone-wrapper .phone {
+    height: 600px;
+    width: 480px;
+  }
+  .section-one .section-one__date {
+    right: 40px;
+    top: 80px;
+  }
+  .section-one .section-one__date .date__text {
+    font-size: 18px;
+  }
+  .section-one .section-one__date .date__box {
+    height: 40px;
+    padding: 0 20px;
+  }
+  .section-one .section-one__date .date__box .date__value {
+    font-size: 18px;
+    line-height: 39px;
+  }
+  .section-one .section-one__promotion {
+    right: 40px;
+    bottom: 130px;
+  }
+  .section-one .section-one__promotion .promotion__offer {
+    padding: 10px 0;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__text {
+    font-size: 17px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number {
+    font-size: 20px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number .offer__number__unit {
+    font-size: 17px;
+  }
+  .section-one .section-one__promotion .promotion__installment {
+    padding: 10px 0;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__value {
+    font-size: 42px;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__text {
+    font-size: 16px;
+  }
+  .section-one .section-one__phonename {
+    font-size: 100px;
+    left: 40px;
+    bottom: 215px;
+  }
+  .section-one .section-one__phonename .phonename__oppo {
+    letter-spacing: -13px;
+  }
+  .section-one .section-one__phonename .phonename__a92 {
+    letter-spacing: -15px;
+  }
+  .section-one .section-one__price {
+    left: 40px;
+    font-size: 26px;
+    bottom: 130px;
+  }
+  .section-one .section-one__price .price__unit {
+    font-size: 24px;
   }
   .section-seven .col-md-6 {
     padding: 0 30px;
