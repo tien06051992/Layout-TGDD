@@ -469,6 +469,127 @@
   }
 }
 
+.section-six {
+  height: 100vh;
+  background-image: url("../images/section_6_bg.png");
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  padding: 145px 14%;
+  position: relative;
+}
+
+.section-six__camera {
+  color: rgb(255, 255, 255);
+  width: 595px;
+  height: 670px;
+  position: relative;
+
+  .section-six__camera__overlay-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+    .section-six__camera__overlay {
+      background-image: url("../images/section_6_popup.png");
+      overflow: hidden;
+      height: 100%;
+      margin-right: -45px;
+    }
+  }
+
+  .section-six__camera__text-wrapper {
+    position: relative;
+    padding: 85px 25px 90px 25px;
+  }
+
+  .camera__title {
+    letter-spacing: -1px;
+  }
+
+  .camera__subtitle {
+    margin: 40px 0 70px 0;
+  }
+
+  .camera__description {
+    display: flex;
+    flex-direction: column;
+
+    span + span {
+      margin-top: 40px;
+    }
+  }
+}
+
+.section-six__figure {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 55%;
+
+  .camera-wrapper {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 990px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .camera-line {
+      color: rgb(26, 15, 50);
+      font-size: 14px;
+      font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+      letter-spacing: -1px;
+      background-repeat: no-repeat;
+      background-position: left bottom;
+    }
+
+    .camera-line-1 {
+      background-image: url("../images/camera_line_1.png");
+      position: absolute;
+      top: 48%;
+      left: 27%;
+      padding-left: 70px;
+    }
+
+    .camera-line-2 {
+      background-image: url("../images/camera_line_2.png");
+      position: absolute;
+      top: 53%;
+      left: 21%;
+      padding-left: 130px;
+    }
+
+    .camera-line-3 {
+      display: flex;
+      align-items: flex-end;
+      height: 147px;
+      background-image: url("../images/camera_line_3.png");
+      position: absolute;
+      top: 44%;
+      left: 16%;
+      padding-left: 179px;
+    }
+    .camera-line-4 {
+      display: flex;
+      align-items: flex-end;
+      height: 272px;
+      background-image: url(../images/camera_line_4.png);
+      position: absolute;
+      top: 35%;
+      left: 12%;
+      padding-left: 219px;
+    }
+  }
+}
+
 .section-seven {
   padding: 95px 14%;
   background-image: url("../images/section_7_bg.png");
