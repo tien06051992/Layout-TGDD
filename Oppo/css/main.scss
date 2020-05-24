@@ -24,17 +24,14 @@
 .text-content-title {
   font-size: 50px;
   font-family: "Oppo-2019044a-Black", Arial, sans-serif;
-  color: rgb(255, 255, 255);
 }
 .text-content-subtitle {
   font-size: 34px;
   font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
-  color: rgb(255, 255, 255);
 }
 .text-content-description {
   font-size: 23px;
   font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
-  color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -284,6 +281,7 @@
 .section-two__battery {
   width: 65%;
   padding: 300px 0 200px 0;
+  color: rgb(255, 255, 255);
 
   .battery__title {
     display: flex;
@@ -342,17 +340,23 @@
     height: 100%;
   }
 
-  .screen-title {
-    font-size: 50px;
-  }
-  .screen-subtitle {
-    margin: 50px 0 75px 0;
-  }
-  .screen-description {
-    width: 96%;
+  .screen__text {
+    color: rgb(255, 255, 255);
+
+    .screen-title {
+      font-size: 50px;
+    }
+    .screen-subtitle {
+      margin: 50px 0 75px 0;
+    }
+    .screen-description {
+      width: 96%;
+    }
   }
 
   .screen-specs {
+    color: rgb(255, 255, 255);
+
     .specs__details {
       display: flex;
       flex-direction: column;
@@ -406,6 +410,7 @@
 
   .storage-info {
     margin-top: 60px;
+    color: rgb(255, 255, 255);
   }
 
   .storage-subtitle {
@@ -450,6 +455,7 @@
 
 .phone-back__text {
   margin-top: 160px;
+  color: rgb(255, 255, 255);
 
   .phone-back__title-wrapper {
     .phone-back__title {
@@ -460,5 +466,40 @@
 
   .phone-back__subtitle {
     margin: 40px 0 70px 0;
+  }
+}
+
+.section-seven {
+  padding: 95px 14%;
+  background-image: url("../images/section_7_bg.png");
+  background-size: cover;
+  background-position: 50%;
+}
+
+.night-mode__text {
+  color: black;
+  margin-top: 100px;
+
+  .night-mode__subtitle {
+    margin: 50px 0 65px 0;
+  }
+
+  .night-mode_description {
+    width: 80%;
+  }
+
+  .night-mode__specs {
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .night-icon {
+    background-image: url("../images/night-icon.png");
+    background-size: cover;
+    background-position: 50%;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-right: 15px;
   }
 }

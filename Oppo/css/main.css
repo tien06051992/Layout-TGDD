@@ -26,19 +26,16 @@
 .text-content-title {
   font-size: 50px;
   font-family: "Oppo-2019044a-Black", Arial, sans-serif;
-  color: white;
 }
 
 .text-content-subtitle {
   font-size: 34px;
   font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
-  color: white;
 }
 
 .text-content-description {
   font-size: 23px;
   font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
-  color: white;
 }
 
 .navbar {
@@ -323,6 +320,7 @@
 .section-two__battery {
   width: 65%;
   padding: 300px 0 200px 0;
+  color: white;
 }
 
 .section-two__battery .battery__title {
@@ -389,16 +387,24 @@
   height: 100%;
 }
 
-.section-three__screen .screen-title {
+.section-three__screen .screen__text {
+  color: white;
+}
+
+.section-three__screen .screen__text .screen-title {
   font-size: 50px;
 }
 
-.section-three__screen .screen-subtitle {
+.section-three__screen .screen__text .screen-subtitle {
   margin: 50px 0 75px 0;
 }
 
-.section-three__screen .screen-description {
+.section-three__screen .screen__text .screen-description {
   width: 96%;
+}
+
+.section-three__screen .screen-specs {
+  color: white;
 }
 
 .section-three__screen .screen-specs .specs__details {
@@ -461,6 +467,7 @@
 
 .section-four .storage-info {
   margin-top: 60px;
+  color: white;
 }
 
 .section-four .storage-subtitle {
@@ -514,6 +521,7 @@
 
 .phone-back__text {
   margin-top: 160px;
+  color: white;
 }
 
 .phone-back__text .phone-back__title-wrapper .phone-back__title {
@@ -528,5 +536,42 @@
 
 .phone-back__text .phone-back__subtitle {
   margin: 40px 0 70px 0;
+}
+
+.section-seven {
+  padding: 95px 14%;
+  background-image: url("../images/section_7_bg.png");
+  background-size: cover;
+  background-position: 50%;
+}
+
+.night-mode__text {
+  color: black;
+  margin-top: 100px;
+}
+
+.night-mode__text .night-mode__subtitle {
+  margin: 50px 0 65px 0;
+}
+
+.night-mode__text .night-mode_description {
+  width: 80%;
+}
+
+.night-mode__text .night-mode__specs {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.night-mode__text .night-icon {
+  background-image: url("../images/night-icon.png");
+  background-size: cover;
+  background-position: 50%;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  margin-right: 15px;
 }
 /*# sourceMappingURL=main.css.map */
