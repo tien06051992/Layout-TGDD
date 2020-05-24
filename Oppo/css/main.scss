@@ -273,12 +273,10 @@
 
 .section-two {
   position: relative;
-  padding: 0 14%;
 }
 
 .section-two__battery {
-  width: 65%;
-  padding: 300px 0 200px 0;
+  margin: 200px 0;
   color: rgb(255, 255, 255);
 
   .battery__title {
@@ -292,15 +290,11 @@
   }
 
   .battery__description {
-    width: 85%;
   }
 }
 
 .section-two-figure {
-  position: absolute;
-  right: 140px;
-  top: 80px;
-
+  margin-top: 200px;
   img {
     width: 100%;
   }
