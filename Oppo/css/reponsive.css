@@ -191,20 +191,11 @@ and open the template in the editor.
   .section-seven .night-mode__text .text-content-title {
     font-size: 43px;
   }
-  .section-seven .night-mode__text .text-content-subtitle {
-    font-size: 32px;
-  }
-  .section-seven .night-mode__text .text-content-title {
-    font-size: 5vw;
-  }
-  .section-seven .night-mode__text .text-content-subtitle {
-    font-size: 4vw;
-  }
-  .section-seven .night-mode__text .text-content-description {
-    font-size: 3vw;
-  }
   .section-six .section-six__camera__text-wrapper {
     padding: 40px 25px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-title {
+    font-size: 38px;
   }
   .section-six .section-six__camera__text-wrapper .text-content-subtitle {
     font-size: 27px;
@@ -410,6 +401,9 @@ and open the template in the editor.
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .section-seven .night-mode__text {
+    margin-top: 0;
+  }
   .section-seven .night-mode__text .text-content-title {
     font-size: 5vw;
   }
@@ -608,6 +602,9 @@ and open the template in the editor.
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .section-seven .night-mode__text {
+    margin-top: 0;
   }
   .section-seven .night-mode__text .text-content-title {
     font-size: 7vw;
@@ -888,6 +885,9 @@ and open the template in the editor.
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .section-seven .night-mode__text {
+    margin-top: 0;
+  }
   .section-seven .night-mode__text .text-content-title {
     font-size: 7vw;
   }
@@ -1016,10 +1016,13 @@ and open the template in the editor.
     padding: 20px 25px;
   }
   .section-six .section-six__camera__text-wrapper .text-content-title {
-    font-size: 35px;
+    font-size: 7vw;
   }
   .section-six .section-six__camera__text-wrapper .text-content-subtitle {
-    font-size: 22px;
+    font-size: 6vw;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-description {
+    font-size: 5vw;
   }
   .section-six .section-six__camera {
     width: 90%;

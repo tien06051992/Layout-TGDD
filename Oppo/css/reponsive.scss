@@ -227,23 +227,9 @@ and open the template in the editor.
   .section-seven {
     .night-mode__text {
       margin-top: 0;
+
       .text-content-title {
         font-size: 43px;
-      }
-      .text-content-subtitle {
-        font-size: 32px;
-      }
-    }
-
-    .night-mode__text {
-      .text-content-title {
-        font-size: 5vw;
-      }
-      .text-content-subtitle {
-        font-size: 4vw;
-      }
-      .text-content-description {
-        font-size: 3vw;
       }
     }
   }
@@ -251,6 +237,10 @@ and open the template in the editor.
   .section-six {
     .section-six__camera__text-wrapper {
       padding: 40px 25px;
+
+      .text-content-title {
+        font-size: 38px;
+      }
       .text-content-subtitle {
         font-size: 27px;
       }
@@ -485,6 +475,8 @@ and open the template in the editor.
     }
 
     .night-mode__text {
+      margin-top: 0;
+
       .text-content-title {
         font-size: 5vw;
       }
@@ -698,6 +690,8 @@ and open the template in the editor.
       justify-content: center;
     }
     .night-mode__text {
+      margin-top: 0;
+
       .text-content-title {
         font-size: 7vw;
       }
@@ -1000,6 +994,8 @@ and open the template in the editor.
       justify-content: center;
     }
     .night-mode__text {
+      margin-top: 0;
+
       .text-content-title {
         font-size: 7vw;
       }
@@ -1138,11 +1134,15 @@ and open the template in the editor.
     background-position: 68%;
     .section-six__camera__text-wrapper {
       padding: 20px 25px;
+
       .text-content-title {
-        font-size: 35px;
+        font-size: 7vw;
       }
       .text-content-subtitle {
-        font-size: 22px;
+        font-size: 6vw;
+      }
+      .text-content-description {
+        font-size: 5vw;
       }
     }
 
