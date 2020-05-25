@@ -418,7 +418,7 @@
 }
 
 .section-four {
-  padding: 130px 14%;
+  padding: 130px 0;
 
   .storage-info {
     margin-top: 60px;
@@ -426,11 +426,10 @@
   }
 
   .storage-subtitle {
-    margin: 42px 0 85px 0;
+    margin: 40px 0 80px 0;
   }
 
   .storage-description {
-    width: 84%;
     display: flex;
     flex-direction: column;
 
@@ -448,43 +447,50 @@
 }
 
 .section-five {
-  padding: 130px 14%;
-}
+  padding: 130px 0;
 
-.phone-back__figure {
-  position: relative;
-
-  .figure__label {
+  .container {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: absolute;
-    left: 4%;
-    top: 55%;
-    font-size: 17px;
-    font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
-    color: rgb(255, 255, 255);
   }
 
-  img {
-    height: 100%;
-    width: 100%;
-  }
-}
+  .phone-back__figure {
+    flex: 0 1 50%;
+    position: relative;
 
-.phone-back__text {
-  margin-top: 160px;
-  color: rgb(255, 255, 255);
-
-  .phone-back__title-wrapper {
-    .phone-back__title {
-      display: inline-flex;
+    .figure__label {
+      display: flex;
       flex-direction: column;
+      text-align: center;
+      position: absolute;
+      left: 4%;
+      top: 55%;
+      font-size: 17px;
+      font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
+      color: rgb(255, 255, 255);
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
     }
   }
 
-  .phone-back__subtitle {
-    margin: 40px 0 70px 0;
+  .phone-back__text {
+    flex: 0 1 50%;
+    margin-top: 160px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+
+    .phone-back__title-wrapper {
+      .phone-back__title {
+        display: inline-flex;
+        flex-direction: column;
+      }
+    }
+
+    .phone-back__subtitle {
+      margin: 40px 0 70px 0;
+    }
   }
 }
 
