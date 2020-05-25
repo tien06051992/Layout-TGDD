@@ -300,19 +300,33 @@
   }
 }
 
-.section-three__figure-wrapper {
+.section-three__figure-container {
+  height: 395px;
   position: relative;
+}
+
+.section-three__figure-wrapper {
+  position: absolute;
+  left: 32%;
+  top: 0;
 
   .section-three__spiral {
-    background-image: url("../images/dot_spiral.png");
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 400px;
     position: absolute;
-    top: -45%;
-    left: 23%;
+    top: -187px;
+    left: -119px;
+  }
+
+  .section-three__figure {
+    text-align: center;
+    height: 395px;
+    width: 750px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
@@ -394,13 +408,6 @@
       position: relative;
     }
   }
-}
-
-.section-three__figure {
-  text-align: center;
-  height: 395px;
-  overflow: hidden;
-  position: relative;
 }
 
 .section-four-five-wrapper {
