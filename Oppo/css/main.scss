@@ -494,35 +494,27 @@
   background-size: cover;
   background-position: 50%;
   overflow: hidden;
-  padding: 145px 14%;
   position: relative;
 }
 
 .section-six__camera {
   color: rgb(255, 255, 255);
   width: 595px;
-  height: 670px;
-  position: relative;
-
-  .section-six__camera__overlay-wrapper {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-
-    .section-six__camera__overlay {
-      background-image: url("../images/section_6_popup.png");
-      overflow: hidden;
-      height: 100%;
-      margin-right: -45px;
-    }
-  }
+  position: absolute;
+  left: 14%;
+  top: 16%;
 
   .section-six__camera__text-wrapper {
     position: relative;
     padding: 85px 25px 90px 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+  }
+
+  .popup-moc {
+    position: absolute;
+    right: -45px;
+    bottom: 200px;
   }
 
   .camera__title {
@@ -558,7 +550,7 @@
 
     img {
       width: 100%;
-      height: 100%;
+      height: auto;
     }
 
     .camera-line {

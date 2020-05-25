@@ -65,6 +65,18 @@ and open the template in the editor.
   .section-one .section-one__phonename .phonename__a92 {
     letter-spacing: -25px;
   }
+  .section-six .section-six__camera__text-wrapper {
+    padding: 40px 25px;
+  }
+  .section-six .section-six__camera {
+    width: 402px;
+  }
+  .section-six .section-six__camera .camera__description {
+    font-size: 20px;
+  }
+  .section-six .camera__subtitle {
+    margin: 20px 0 40px 0;
+  }
 }
 
 /* #Tablet (Landscape) 1024px
@@ -170,6 +182,22 @@ and open the template in the editor.
   }
   .section-seven .night-mode__text .text-content-subtitle {
     font-size: 32px;
+  }
+  .section-six .section-six__camera__text-wrapper {
+    padding: 40px 25px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
+    font-size: 27px;
+  }
+  .section-six .section-six__camera {
+    width: 44%;
+    left: 15px;
+  }
+  .section-six .section-six__camera .camera__description {
+    font-size: 20px;
+  }
+  .section-six .camera__subtitle {
+    margin: 20px 0 40px 0;
   }
 }
 
@@ -313,11 +341,61 @@ and open the template in the editor.
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .section-six {
+    background-position: 68%;
+  }
+  .section-six .section-six__camera__text-wrapper {
+    padding: 20px 25px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-title {
+    font-size: 35px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
+    font-size: 22px;
+  }
+  .section-six .section-six__camera {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: 15px;
+  }
+  .section-six .section-six__camera .camera__description {
+    font-size: 15px;
+  }
+  .section-six .section-six__camera .popup-moc {
+    position: absolute;
+    right: inherit;
+    bottom: -64px;
+    left: 70px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .section-six .camera__subtitle {
+    margin: 20px 0;
+  }
+  .section-six .section-six__figure {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .section-six .section-six__figure .camera-wrapper {
+    position: absolute;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 
 /* #Mobile (Landscape) 480px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  section {
+    min-height: 1024px;
+  }
   .m-center {
     text-align: center;
   }
@@ -480,6 +558,53 @@ and open the template in the editor.
   }
   .section-one .section-one__price .price__unit {
     font-size: 24px;
+  }
+  .section-six {
+    background-position: 68%;
+  }
+  .section-six .section-six__camera__text-wrapper {
+    padding: 20px 25px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-title {
+    font-size: 35px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
+    font-size: 22px;
+  }
+  .section-six .section-six__camera {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: 15px;
+  }
+  .section-six .section-six__camera .camera__description {
+    font-size: 15px;
+  }
+  .section-six .section-six__camera .popup-moc {
+    position: absolute;
+    right: inherit;
+    bottom: -64px;
+    left: 70px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .section-six .camera__subtitle {
+    margin: 20px 0;
+  }
+  .section-six .section-six__figure {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .section-six .section-six__figure .camera-wrapper {
+    position: absolute;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
 }
 
@@ -678,6 +803,68 @@ and open the template in the editor.
   }
   .section-one .section-one__price .price__unit {
     font-size: 24px;
+  }
+  .section-six {
+    background-position: 68%;
+  }
+  .section-six .section-six__camera__text-wrapper {
+    padding: 20px 25px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-title {
+    font-size: 35px;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
+    font-size: 22px;
+  }
+  .section-six .section-six__camera {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: 15px;
+  }
+  .section-six .section-six__camera .camera__description {
+    font-size: 15px;
+  }
+  .section-six .section-six__camera .popup-moc {
+    position: absolute;
+    right: inherit;
+    bottom: -64px;
+    left: 70px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .section-six .camera__subtitle {
+    margin: 20px 0;
+  }
+  .section-six .section-six__figure {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .section-six .section-six__figure .camera-wrapper {
+    position: absolute;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .section-six .section-six__figure .camera-wrapper .camera-line-1 {
+    padding-left: 18px;
+  }
+  .section-six .section-six__figure .camera-wrapper .camera-line-2 {
+    padding-left: 62px;
+    padding-top: 13px;
+  }
+  .section-six .section-six__figure .camera-wrapper .camera-line-3 {
+    padding-left: 89px;
+    height: 95px;
+  }
+  .section-six .section-six__figure .camera-wrapper .camera-line-4 {
+    padding-left: 91px;
+    height: 157px;
   }
 }
 /*# sourceMappingURL=reponsive.css.map */
