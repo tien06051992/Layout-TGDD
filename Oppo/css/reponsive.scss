@@ -226,6 +226,18 @@ and open the template in the editor.
         font-size: 32px;
       }
     }
+
+    .night-mode__text {
+      .text-content-title {
+        font-size: 5vw;
+      }
+      .text-content-subtitle {
+        font-size: 4vw;
+      }
+      .text-content-description {
+        font-size: 3vw;
+      }
+    }
   }
 
   .section-six {
@@ -463,6 +475,18 @@ and open the template in the editor.
       margin: 50px 0;
       justify-content: center;
     }
+
+    .night-mode__text {
+      .text-content-title {
+        font-size: 5vw;
+      }
+      .text-content-subtitle {
+        font-size: 4vw;
+      }
+      .text-content-description {
+        font-size: 3vw;
+      }
+    }
   }
 
   .section-six {
@@ -519,7 +543,7 @@ and open the template in the editor.
   section {
     min-height: 1024px;
   }
-  
+
   .m-center {
     text-align: center;
   }
@@ -661,6 +685,17 @@ and open the template in the editor.
     .night-mode__text .night-mode__specs {
       margin: 50px 0;
       justify-content: center;
+    }
+    .night-mode__text {
+      .text-content-title {
+        font-size: 7vw;
+      }
+      .text-content-subtitle {
+        font-size: 6vw;
+      }
+      .text-content-description {
+        font-size: 5vw;
+      }
     }
   }
 
@@ -949,6 +984,17 @@ and open the template in the editor.
     .night-mode__text .night-mode__specs {
       margin: 50px 0;
       justify-content: center;
+    }
+    .night-mode__text {
+      .text-content-title {
+        font-size: 7vw;
+      }
+      .text-content-subtitle {
+        font-size: 6vw;
+      }
+      .text-content-description {
+        font-size: 5vw;
+      }
     }
   }
   .section-one {
