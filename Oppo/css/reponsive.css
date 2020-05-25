@@ -79,6 +79,14 @@ and open the template in the editor.
   }
 }
 
+/* #Special for all max 820px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 820px) {
+  section {
+    min-height: 768px;
+  }
+}
+
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
@@ -458,6 +466,9 @@ and open the template in the editor.
     left: 0;
     width: 100%;
   }
+  .section-six .section-six__figure .camera-wrapper .camera-line-2 {
+    padding-top: 17px;
+  }
 }
 
 /* #Mobile (Landscape) 480px
@@ -790,6 +801,9 @@ and open the template in the editor.
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    position: static;
+    right: initial;
+    top: initial;
   }
   .section-three .screen__content-wrapper .screen__specs .specs__details {
     margin-top: 0;

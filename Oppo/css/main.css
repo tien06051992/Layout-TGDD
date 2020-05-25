@@ -412,6 +412,9 @@
   -webkit-box-flex: 0;
       -ms-flex: 0 1 35%;
           flex: 0 1 35%;
+  position: absolute;
+  right: 30px;
+  top: 15px;
 }
 
 .section-three__screen .screen__content-wrapper .screen-description {
@@ -443,7 +446,7 @@
 }
 
 .section-three__screen .screen__specs .specs__details + .specs__details {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .section-three__screen .screen__specs .specs__details .details__number__fhd {
@@ -474,10 +477,12 @@
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .section-four {
   padding: 130px 0;
+  overflow: hidden;
 }
 
 .section-four .storage-info {
