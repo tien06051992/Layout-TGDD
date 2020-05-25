@@ -19,7 +19,7 @@ and open the template in the editor.
 
     .section-one__phone-wrapper {
       top: 32%;
-      left: 31%;
+      left: 30%;
 
       .section-one__spiral-pink {
         left: -163px;
@@ -52,10 +52,10 @@ and open the template in the editor.
         }
 
         .offer__number {
-          font-size: 32px;
+          font-size: 2.5vw;
 
           .offer__number__unit {
-            font-size: 24px;
+            font-size: 1.7vw;
           }
         }
       }
@@ -73,7 +73,8 @@ and open the template in the editor.
 
     .section-one__phonename {
       font-size: 13.5vw;
-      bottom: 117px;
+      bottom: 200px;
+
       .phonename__oppo {
         letter-spacing: -15px;
       }
@@ -86,13 +87,27 @@ and open the template in the editor.
   .section-six {
     .section-six__camera__text-wrapper {
       padding: 40px 25px;
+
+      .text-content-title {
+        font-size: 2.5vw;
+      }
+      .text-content-subtitle {
+        font-size: 2vw;
+      }
+      .text-content-description {
+        font-size: 1.5vw;
+      }
     }
+
     .section-six__camera {
-      width: 402px;
+      width: 34%;
+      left: 10%;
+
       .camera__description {
         font-size: 20px;
       }
     }
+
     .camera__subtitle {
       margin: 20px 0 40px 0;
     }
@@ -206,10 +221,6 @@ and open the template in the editor.
 
   .section-three {
     .section-three__figure-wrapper {
-      left: 50%;
-      top: 0;
-      transform: translateX(-50%);
-
       .section-three__figure {
         width: 100%;
       }
@@ -406,6 +417,8 @@ and open the template in the editor.
 
     .section-three__figure-wrapper {
       left: 0;
+      transform: none;
+      width: 100%;
 
       .section-three__figure {
         width: 100%;
@@ -617,11 +630,18 @@ and open the template in the editor.
       }
     }
 
-    .section-three__figure-wrapper {
-      left: 0;
+    .section-three__figure-container {
+      height: 350px;
 
-      .section-three__figure {
+      .section-three__figure-wrapper {
+        left: 0;
+        transform: none;
         width: 100%;
+
+        .section-three__figure {
+          height: 350px;
+          width: 100%;
+        }
       }
     }
   }
@@ -921,11 +941,18 @@ and open the template in the editor.
       }
     }
 
-    .section-three__figure-wrapper {
-      left: 0;
+    .section-three__figure-container {
+      height: 350px;
 
-      .section-three__figure {
+      .section-three__figure-wrapper {
+        left: 0;
+        transform: none;
         width: 100%;
+
+        .section-three__figure {
+          height: 350px;
+          width: 100%;
+        }
       }
     }
   }
@@ -1031,6 +1058,7 @@ and open the template in the editor.
       }
       .phone {
         width: 100%;
+        height: auto;
       }
     }
 
@@ -1111,7 +1139,7 @@ and open the template in the editor.
       font-size: 72px;
       left: 15px;
       bottom: inherit;
-      top: 0;
+      top: 20px;
       .phonename__oppo {
         letter-spacing: -13px;
       }

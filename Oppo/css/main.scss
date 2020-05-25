@@ -1,3 +1,12 @@
+@keyframes animation-bg {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .block {
   display: block;
 }
@@ -164,13 +173,13 @@
       color: rgb(254, 254, 254);
     }
     .offer__number {
-      font-size: 50px;
+      font-size: 3vw;
       font-weight: bold;
       color: rgb(255, 255, 255);
       margin-top: 20px;
     }
     .offer__number__unit {
-      font-size: 34px;
+      font-size: 2vw;
     }
   }
 
@@ -202,31 +211,31 @@
 
 .section-one__phone-wrapper {
   position: absolute;
-  left: 35%;
+  left: 33%;
   top: 24%;
-}
 
-.section-one__spiral-pink {
-  position: absolute;
-  left: -86px;
-  top: -516px;
-  // left: 190px;
-  // top: -187px;
-  // width: 400px;
-}
+  .section-one__spiral-pink {
+    position: absolute;
+    left: -86px;
+    top: -516px;
+  }
 
-.phone {
-  position: relative;
-  z-index: 1;
+  .phone {
+    position: relative;
+    z-index: 1;
+    // height: 82vh;
+    // width: auto;
+  }
 }
 
 .section-one__phonename {
   position: absolute;
   left: 80px;
-  bottom: 80px;
+  bottom: 200px;
   color: rgb(255, 255, 255);
-  font-size: 14.5vw;
+  font-size: 14vw;
   font-family: "Oppo-2019044a-Semibold", Arial, sans-serif;
+  line-height: 1;
 
   .phonename__oppo {
     letter-spacing: -20px;
@@ -298,8 +307,9 @@
 
 .section-three__figure-wrapper {
   position: absolute;
-  left: 32%;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 
   .section-three__spiral {
     position: absolute;
@@ -410,6 +420,20 @@
   background-position: 50%;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: relative;
+
+  .animation-bg-overlay {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation-name: animation-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
 }
 
 .section-four {
@@ -426,10 +450,7 @@
   }
 
   .storage-description {
-    display: flex;
-    flex-direction: column;
-
-    span + span {
+    p + p {
       margin-top: 40px;
     }
   }
@@ -466,7 +487,7 @@
     }
 
     img {
-      height: 100%;
+      height: auto;
       width: 100%;
     }
   }
@@ -501,16 +522,20 @@
 
 .section-six__camera {
   color: rgb(255, 255, 255);
-  width: 595px;
+  width: 35%;
   position: absolute;
-  left: 14%;
-  top: 16%;
+  left: 10%;
+  bottom: 15%;
 
   .section-six__camera__text-wrapper {
     position: relative;
     padding: 85px 25px 90px 25px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
+
+    .camera__title {
+      font-size: 3vw;
+    }
   }
 
   .popup-moc {
@@ -528,10 +553,7 @@
   }
 
   .camera__description {
-    display: flex;
-    flex-direction: column;
-
-    span + span {
+    p + p {
       margin-top: 40px;
     }
   }
@@ -546,9 +568,9 @@
 
   .camera-wrapper {
     position: absolute;
-    top: 50px;
+    bottom: 0;
     left: 30px;
-    width: 990px;
+    width: 800px;
 
     img {
       width: 100%;
@@ -569,7 +591,7 @@
       position: absolute;
       top: 48%;
       left: 27%;
-      padding-left: 70px;
+      padding-left: 10%;
     }
 
     .camera-line-2 {
@@ -577,7 +599,7 @@
       position: absolute;
       top: 53%;
       left: 21%;
-      padding-left: 130px;
+      padding-left: 16%;
     }
 
     .camera-line-3 {
@@ -588,7 +610,7 @@
       position: absolute;
       top: 44%;
       left: 16%;
-      padding-left: 179px;
+      padding-left: 21%;
     }
     .camera-line-4 {
       display: flex;
@@ -598,7 +620,7 @@
       position: absolute;
       top: 35%;
       left: 12%;
-      padding-left: 219px;
+      padding-left: 25%;
     }
   }
 }

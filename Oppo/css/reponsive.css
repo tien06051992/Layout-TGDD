@@ -14,7 +14,7 @@ and open the template in the editor.
   }
   .section-one .section-one__phone-wrapper {
     top: 32%;
-    left: 31%;
+    left: 30%;
   }
   .section-one .section-one__phone-wrapper .section-one__spiral-pink {
     left: -163px;
@@ -41,10 +41,10 @@ and open the template in the editor.
     font-size: 22px;
   }
   .section-one .section-one__promotion .promotion__offer .offer__number {
-    font-size: 32px;
+    font-size: 2.5vw;
   }
   .section-one .section-one__promotion .promotion__offer .offer__number .offer__number__unit {
-    font-size: 24px;
+    font-size: 1.7vw;
   }
   .section-one .section-one__promotion .promotion__installment {
     padding-bottom: 10px;
@@ -57,7 +57,7 @@ and open the template in the editor.
   }
   .section-one .section-one__phonename {
     font-size: 13.5vw;
-    bottom: 117px;
+    bottom: 200px;
   }
   .section-one .section-one__phonename .phonename__oppo {
     letter-spacing: -15px;
@@ -68,8 +68,18 @@ and open the template in the editor.
   .section-six .section-six__camera__text-wrapper {
     padding: 40px 25px;
   }
+  .section-six .section-six__camera__text-wrapper .text-content-title {
+    font-size: 2.5vw;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
+    font-size: 2vw;
+  }
+  .section-six .section-six__camera__text-wrapper .text-content-description {
+    font-size: 1.5vw;
+  }
   .section-six .section-six__camera {
-    width: 402px;
+    width: 34%;
+    left: 10%;
   }
   .section-six .section-six__camera .camera__description {
     font-size: 20px;
@@ -172,12 +182,6 @@ and open the template in the editor.
   }
   .section-one .section-one__price .price__unit {
     font-size: 24px;
-  }
-  .section-three .section-three__figure-wrapper {
-    left: 50%;
-    top: 0;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
   }
   .section-three .section-three__figure-wrapper .section-three__figure {
     width: 100%;
@@ -339,6 +343,9 @@ and open the template in the editor.
   }
   .section-three .section-three__figure-wrapper {
     left: 0;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
   }
   .section-three .section-three__figure-wrapper .section-three__figure {
     width: 100%;
@@ -536,10 +543,17 @@ and open the template in the editor.
   .section-three .screen__content-wrapper .screen-description {
     margin-top: 40px;
   }
-  .section-three .section-three__figure-wrapper {
-    left: 0;
+  .section-three .section-three__figure-container {
+    height: 350px;
   }
-  .section-three .section-three__figure-wrapper .section-three__figure {
+  .section-three .section-three__figure-container .section-three__figure-wrapper {
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+  }
+  .section-three .section-three__figure-container .section-three__figure-wrapper .section-three__figure {
+    height: 350px;
     width: 100%;
   }
   .section-four {
@@ -818,10 +832,17 @@ and open the template in the editor.
   .section-three .screen__content-wrapper .screen-description {
     margin-top: 40px;
   }
-  .section-three .section-three__figure-wrapper {
-    left: 0;
+  .section-three .section-three__figure-container {
+    height: 350px;
   }
-  .section-three .section-three__figure-wrapper .section-three__figure {
+  .section-three .section-three__figure-container .section-three__figure-wrapper {
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+  }
+  .section-three .section-three__figure-container .section-three__figure-wrapper .section-three__figure {
+    height: 350px;
     width: 100%;
   }
   .section-four {
@@ -919,6 +940,7 @@ and open the template in the editor.
   }
   .section-one .section-one__phone-wrapper .phone {
     width: 100%;
+    height: auto;
   }
   .section-one .section-one__date {
     right: 1px;
@@ -993,7 +1015,7 @@ and open the template in the editor.
     font-size: 72px;
     left: 15px;
     bottom: inherit;
-    top: 0;
+    top: 20px;
   }
   .section-one .section-one__phonename .phonename__oppo {
     letter-spacing: -13px;

@@ -1,3 +1,21 @@
+@-webkit-keyframes animation-bg {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes animation-bg {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .block {
   display: block;
 }
@@ -193,14 +211,14 @@
 }
 
 .section-one__promotion .promotion__offer .offer__number {
-  font-size: 50px;
+  font-size: 3vw;
   font-weight: bold;
   color: white;
   margin-top: 20px;
 }
 
 .section-one__promotion .promotion__offer .offer__number__unit {
-  font-size: 34px;
+  font-size: 2vw;
 }
 
 .section-one__promotion .promotion__line {
@@ -238,17 +256,17 @@
 
 .section-one__phone-wrapper {
   position: absolute;
-  left: 35%;
+  left: 33%;
   top: 24%;
 }
 
-.section-one__spiral-pink {
+.section-one__phone-wrapper .section-one__spiral-pink {
   position: absolute;
   left: -86px;
   top: -516px;
 }
 
-.phone {
+.section-one__phone-wrapper .phone {
   position: relative;
   z-index: 1;
 }
@@ -256,10 +274,11 @@
 .section-one__phonename {
   position: absolute;
   left: 80px;
-  bottom: 80px;
+  bottom: 200px;
   color: white;
-  font-size: 14.5vw;
+  font-size: 14vw;
   font-family: "Oppo-2019044a-Semibold", Arial, sans-serif;
+  line-height: 1;
 }
 
 .section-one__phonename .phonename__oppo {
@@ -336,8 +355,10 @@
 
 .section-three__figure-wrapper {
   position: absolute;
-  left: 32%;
   top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .section-three__figure-wrapper .section-three__spiral {
@@ -465,6 +486,24 @@
   background-position: 50%;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: relative;
+}
+
+.section-four-five-wrapper .animation-bg-overlay {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-name: animation-bg;
+          animation-name: animation-bg;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 .section-four {
@@ -481,17 +520,7 @@
   margin: 40px 0 80px 0;
 }
 
-.section-four .storage-description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.section-four .storage-description span + span {
+.section-four .storage-description p + p {
   margin-top: 40px;
 }
 
@@ -535,7 +564,7 @@
 }
 
 .section-five .phone-back__figure img {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -573,10 +602,10 @@
 
 .section-six__camera {
   color: white;
-  width: 595px;
+  width: 35%;
   position: absolute;
-  left: 14%;
-  top: 16%;
+  left: 10%;
+  bottom: 15%;
 }
 
 .section-six__camera .section-six__camera__text-wrapper {
@@ -584,6 +613,10 @@
   padding: 85px 25px 90px 25px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
+}
+
+.section-six__camera .section-six__camera__text-wrapper .camera__title {
+  font-size: 3vw;
 }
 
 .section-six__camera .popup-moc {
@@ -600,17 +633,7 @@
   margin: 40px 0 70px 0;
 }
 
-.section-six__camera .camera__description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.section-six__camera .camera__description span + span {
+.section-six__camera .camera__description p + p {
   margin-top: 40px;
 }
 
@@ -624,9 +647,9 @@
 
 .section-six__figure .camera-wrapper {
   position: absolute;
-  top: 50px;
+  bottom: 0;
   left: 30px;
-  width: 990px;
+  width: 800px;
 }
 
 .section-six__figure .camera-wrapper img {
@@ -648,7 +671,7 @@
   position: absolute;
   top: 48%;
   left: 27%;
-  padding-left: 70px;
+  padding-left: 10%;
 }
 
 .section-six__figure .camera-wrapper .camera-line-2 {
@@ -656,7 +679,7 @@
   position: absolute;
   top: 53%;
   left: 21%;
-  padding-left: 130px;
+  padding-left: 16%;
 }
 
 .section-six__figure .camera-wrapper .camera-line-3 {
@@ -671,7 +694,7 @@
   position: absolute;
   top: 44%;
   left: 16%;
-  padding-left: 179px;
+  padding-left: 21%;
 }
 
 .section-six__figure .camera-wrapper .camera-line-4 {
@@ -686,7 +709,7 @@
   position: absolute;
   top: 35%;
   left: 12%;
-  padding-left: 219px;
+  padding-left: 25%;
 }
 
 .section-seven {
