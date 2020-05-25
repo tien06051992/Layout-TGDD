@@ -896,8 +896,7 @@ and open the template in the editor.
     right: 50%;
     bottom: 69px;
     width: 90%;
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
+    margin-right: -45%;
     z-index: 10;
   }
   .section-one .section-one__promotion .promotion__border {
