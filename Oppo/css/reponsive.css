@@ -100,48 +100,118 @@ and open the template in the editor.
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
+  .text-content-title.text-content-title {
+    font-size: 3.5vw;
+  }
+  .text-content-subtitle.text-content-subtitle {
+    font-size: 2.5vw;
+  }
+  .text-content-description.text-content-description {
+    font-size: 2vw;
+  }
+  .m-center {
+    text-align: center;
+  }
+  .section-two .section-two__battery {
+    text-align: left;
+  }
+  .section-two .section-two__battery .battery__subtitle {
+    margin: 30px 0;
+  }
+  .section-three .screen__content-wrapper {
+    text-align: left;
+  }
+  .section-three .screen__content-wrapper .screen__text__headline .screen-subtitle {
+    margin: 30px 0;
+  }
+  .section-three .screen__content-wrapper .screen__specs .specs__details + .specs__details {
+    margin-top: 40px;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__label {
+    font-size: 1.5vw;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number {
+    font-size: 2.5vw;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number .details__number__fhd {
+    font-size: 1vw;
+    top: 3px;
+  }
+  .section-four {
+    padding: 30px 0;
+  }
+  .section-four .storage-subtitle {
+    margin: 30px 0;
+  }
+  .section-four .storage-circle {
+    margin-top: 20px;
+  }
+  .section-five .phone-back__figure .figure__label {
+    font-size: 1.2vw;
+  }
+  .section-five .phone-back__text {
+    padding-left: 20px;
+    margin-top: 100px;
+  }
+  .section-five .phone-back__text .phone-back__subtitle {
+    margin: 30px 0;
+  }
+  .section-seven {
+    padding: 70px 0;
+  }
+  .section-seven .col-md-6 {
+    padding: 0 30px;
+  }
+  .section-seven .night-mode__text {
+    margin-top: 0;
+  }
+  .section-seven .night-mode__text .night-mode__subtitle {
+    margin: 30px 0;
+  }
+  .section-seven .night-mode__text .night-mode__specs {
+    margin: 40px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .section-one .section-one__headline {
-    left: 40px;
-    top: 80px;
+    left: 5%;
+    top: 13%;
   }
   .section-one .section-one__headline .headline__title {
-    font-size: 20px;
+    font-size: 3vw;
   }
   .section-one .section-one__headline .headline__subtitle {
-    font-size: 12px;
+    font-size: 1.5vw;
   }
   .section-one .section-one__phone-wrapper {
-    left: 23%;
+    left: 28%;
     top: 38%;
   }
   .section-one .section-one__phone-wrapper .section-one__spiral-pink {
-    left: 10px;
-    top: -278px;
-    width: 600px;
+    left: 52px;
+    top: -169px;
+    width: 100%;
     height: auto;
   }
   .section-one .section-one__phone-wrapper .phone {
-    height: 600px;
-    width: 480px;
+    height: 500px;
+    width: 400px;
   }
   .section-one .section-one__date {
-    right: 40px;
-    top: 80px;
+    right: 5%;
+    top: 13%;
   }
   .section-one .section-one__date .date__text {
-    font-size: 18px;
-  }
-  .section-one .section-one__date .date__box {
-    height: 40px;
-    padding: 0 20px;
+    font-size: 17px;
   }
   .section-one .section-one__date .date__box .date__value {
-    font-size: 18px;
-    line-height: 39px;
+    font-size: 20px;
+    letter-spacing: -1px;
   }
   .section-one .section-one__promotion {
-    right: 40px;
-    bottom: 130px;
+    right: 5%;
+    bottom: 13%;
   }
   .section-one .section-one__promotion .promotion__offer {
     padding: 10px 0;
@@ -165,145 +235,56 @@ and open the template in the editor.
     font-size: 16px;
   }
   .section-one .section-one__phonename {
-    font-size: 13.5vw;
-    left: 40px;
-    bottom: 215px;
+    bottom: 24%;
+    left: 5%;
+    font-size: 12vw;
   }
   .section-one .section-one__phonename .phonename__oppo {
-    letter-spacing: -13px;
+    letter-spacing: -8px;
   }
   .section-one .section-one__phonename .phonename__a92 {
-    letter-spacing: -15px;
+    letter-spacing: -8px;
   }
   .section-one .section-one__price {
-    left: 40px;
-    font-size: 26px;
-    bottom: 130px;
+    left: 5%;
+    bottom: 13%;
+    font-size: 3.5vw;
   }
   .section-one .section-one__price .price__unit {
-    font-size: 24px;
-  }
-  .section-three .section-three__figure-wrapper .section-three__figure {
-    width: 100%;
-  }
-  .section-five .phone-back__figure .figure__label {
-    font-size: 1.2vw;
-  }
-  .section-seven .night-mode__text {
-    margin-top: 0;
-  }
-  .section-seven .night-mode__text .text-content-title {
-    font-size: 43px;
-  }
-  .section-six .section-six__camera__text-wrapper {
-    padding: 40px 25px;
-  }
-  .section-six .section-six__camera__text-wrapper .text-content-title {
-    font-size: 38px;
-  }
-  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
-    font-size: 27px;
+    font-size: 3vw;
   }
   .section-six .section-six__camera {
-    width: 44%;
-    left: 15px;
-  }
-  .section-six .section-six__camera .camera__description {
-    font-size: 20px;
+    text-align: left;
+    width: 42%;
+    left: 5%;
   }
   .section-six .camera__subtitle {
-    margin: 20px 0 40px 0;
+    margin: 30px 0;
+  }
+  .section-six .section-six__figure .camera-wrapper {
+    bottom: 0;
+    left: 88px;
+    width: 700px;
+  }
+  .section-six .section-six__figure .camera-wrapper .camera-line {
+    font-size: 1.5vw;
   }
 }
 
 /* #Tablet (Portrait) 768px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+  .text-content-title.text-content-title {
+    font-size: 5vw;
+  }
+  .text-content-subtitle.text-content-subtitle {
+    font-size: 4vw;
+  }
+  .text-content-description.text-content-description {
+    font-size: 3vw;
+  }
   .m-center {
     text-align: center;
-  }
-  .section-one .section-one__headline {
-    left: 40px;
-    top: 80px;
-  }
-  .section-one .section-one__headline .headline__title {
-    font-size: 20px;
-  }
-  .section-one .section-one__headline .headline__subtitle {
-    font-size: 12px;
-  }
-  .section-one .section-one__phone-wrapper {
-    left: 23%;
-    top: 38%;
-  }
-  .section-one .section-one__phone-wrapper .section-one__spiral-pink {
-    left: 10px;
-    top: -278px;
-    width: 600px;
-    height: auto;
-  }
-  .section-one .section-one__phone-wrapper .phone {
-    height: 600px;
-    width: 480px;
-  }
-  .section-one .section-one__date {
-    right: 40px;
-    top: 80px;
-  }
-  .section-one .section-one__date .date__text {
-    font-size: 18px;
-  }
-  .section-one .section-one__date .date__box {
-    height: 40px;
-    padding: 0 20px;
-  }
-  .section-one .section-one__date .date__box .date__value {
-    font-size: 18px;
-    line-height: 39px;
-  }
-  .section-one .section-one__promotion {
-    right: 40px;
-    bottom: 130px;
-  }
-  .section-one .section-one__promotion .promotion__offer {
-    padding: 10px 0;
-  }
-  .section-one .section-one__promotion .promotion__offer .offer__text {
-    font-size: 17px;
-  }
-  .section-one .section-one__promotion .promotion__offer .offer__number {
-    font-size: 20px;
-  }
-  .section-one .section-one__promotion .promotion__offer .offer__number .offer__number__unit {
-    font-size: 17px;
-  }
-  .section-one .section-one__promotion .promotion__installment {
-    padding: 10px 0;
-  }
-  .section-one .section-one__promotion .promotion__installment .promotion__installment__value {
-    font-size: 42px;
-  }
-  .section-one .section-one__promotion .promotion__installment .promotion__installment__text {
-    font-size: 16px;
-  }
-  .section-one .section-one__phonename {
-    font-size: 100px;
-    left: 40px;
-    bottom: 215px;
-  }
-  .section-one .section-one__phonename .phonename__oppo {
-    letter-spacing: -13px;
-  }
-  .section-one .section-one__phonename .phonename__a92 {
-    letter-spacing: -15px;
-  }
-  .section-one .section-one__price {
-    left: 40px;
-    font-size: 26px;
-    bottom: 130px;
-  }
-  .section-one .section-one__price .price__unit {
-    font-size: 24px;
   }
   .section-two .section-two__battery {
     margin: 50px 0;
@@ -313,190 +294,18 @@ and open the template in the editor.
         -ms-flex-align: center;
             align-items: center;
   }
-  .section-two .section-two__battery .text-content-title {
-    font-size: 7vw;
-  }
-  .section-two .section-two__battery .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-two .section-two__battery .text-content-description {
-    font-size: 5vw;
-  }
-  .section-two .section-two-figure {
-    margin: 0;
-  }
-  .section-three .screen__content-wrapper .text-content-title {
-    font-size: 5vw;
-  }
-  .section-three .screen__content-wrapper .text-content-subtitle {
-    font-size: 4vw;
-  }
-  .section-three .screen__content-wrapper .text-content-description {
-    font-size: 3vw;
-  }
-  .section-three .screen__content-wrapper .screen__specs .details__number {
-    font-size: 3vw;
-  }
-  .section-three .screen__content-wrapper .screen__specs .details__number .details__number__fhd {
-    font-size: 1.5vw;
-    top: 5px;
-  }
-  .section-three .section-three__figure-wrapper {
-    left: 0;
-    -webkit-transform: none;
-            transform: none;
-    width: 100%;
-  }
-  .section-three .section-three__figure-wrapper .section-three__figure {
-    width: 100%;
-  }
-  .section-four {
-    padding: 30px 0;
-  }
-  .section-four .storage-info .text-content-title {
-    font-size: 5vw;
-  }
-  .section-four .storage-info .text-content-subtitle {
-    font-size: 4vw;
-  }
-  .section-four .storage-info .text-content-description {
-    font-size: 3vw;
-  }
-  .section-four .storage-circle {
-    margin-top: 70px;
-  }
-  .section-five {
-    padding: 60px 0;
-  }
-  .section-five .container {
+  .section-two .section-two__battery .battery__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 30px 0;
   }
-  .section-five .phone-back__figure {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    margin-top: 50px;
-  }
-  .section-five .phone-back__figure .figure__label {
-    font-size: 2.5vw;
-  }
-  .section-five .phone-back__text {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    padding-left: 0;
-    margin-top: 0;
-  }
-  .section-five .phone-back__text .text-content-title {
-    font-size: 5vw;
-  }
-  .section-five .phone-back__text .text-content-subtitle {
-    font-size: 4vw;
-  }
-  .section-five .phone-back__text .text-content-description {
-    font-size: 3vw;
-  }
-  .section-seven .col-md-6 {
-    padding: 0 30px;
-  }
-  .section-seven .night-mode__text .night-mode__specs {
-    margin: 50px 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .section-seven .night-mode__text {
-    margin-top: 0;
-  }
-  .section-seven .night-mode__text .text-content-title {
-    font-size: 5vw;
-  }
-  .section-seven .night-mode__text .text-content-subtitle {
-    font-size: 4vw;
-  }
-  .section-seven .night-mode__text .text-content-description {
-    font-size: 3vw;
-  }
-  .section-six {
-    background-position: 68%;
-  }
-  .section-six .section-six__camera__text-wrapper {
-    padding: 20px 25px;
-  }
-  .section-six .section-six__camera__text-wrapper .text-content-title {
-    font-size: 35px;
-  }
-  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
-    font-size: 22px;
-  }
-  .section-six .section-six__camera {
-    width: 90%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    top: 15px;
-  }
-  .section-six .section-six__camera .camera__description {
-    font-size: 15px;
-  }
-  .section-six .section-six__camera .popup-moc {
-    position: absolute;
-    right: inherit;
-    bottom: -64px;
-    left: 70px;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-  }
-  .section-six .camera__subtitle {
-    margin: 20px 0;
-  }
-  .section-six .section-six__figure {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-  }
-  .section-six .section-six__figure .camera-wrapper {
-    position: absolute;
-    top: initial;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  .section-six .section-six__figure .camera-wrapper .camera-line-2 {
-    padding-top: 17px;
-  }
-}
-
-/* #Mobile (Landscape) 480px
----------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  section {
-    min-height: 1024px;
-  }
-  .m-center {
-    text-align: center;
-  }
-  .section-two .section-two__battery {
-    margin: 50px 0;
-  }
-  .section-two .section-two__battery .battery__title {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .section-two .section-two__battery .text-content-title {
-    font-size: 7vw;
-  }
-  .section-two .section-two__battery .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-two .section-two__battery .text-content-description {
-    font-size: 5vw;
+  .section-two .section-two__battery .battery__subtitle .hyphen {
+    display: none;
   }
   .section-two .section-two-figure {
     margin: 0;
@@ -507,17 +316,8 @@ and open the template in the editor.
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .section-three .screen__content-wrapper .text-content-title {
-    font-size: 7vw;
-  }
-  .section-three .screen__content-wrapper .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-three .screen__content-wrapper .text-content-description {
-    font-size: 5vw;
-  }
   .section-three .screen__content-wrapper .screen__text__headline .screen-subtitle {
-    margin: 40px 0;
+    margin: 30px 0;
   }
   .section-three .screen__content-wrapper .screen__specs {
     display: -webkit-box;
@@ -526,15 +326,18 @@ and open the template in the editor.
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    position: static;
+    right: initial;
+    top: initial;
   }
   .section-three .screen__content-wrapper .screen__specs .specs__details {
     margin-top: 0;
   }
   .section-three .screen__content-wrapper .screen__specs .details__label {
-    font-size: 3vw;
+    font-size: 2vw;
   }
   .section-three .screen__content-wrapper .screen__specs .details__number {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   .section-three .screen__content-wrapper .screen__specs .details__number .details__number__fhd {
     font-size: 1.5vw;
@@ -559,17 +362,8 @@ and open the template in the editor.
   .section-four {
     padding: 30px 0;
   }
-  .section-four .storage-info .text-content-title {
-    font-size: 7vw;
-  }
-  .section-four .storage-info .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-four .storage-info .text-content-description {
-    font-size: 5vw;
-  }
   .section-four .storage-subtitle {
-    margin: 20px 0;
+    margin: 30px 0;
   }
   .section-four .storage-circle {
     margin-top: 20px;
@@ -599,78 +393,65 @@ and open the template in the editor.
     padding-left: 0;
     margin-top: 0;
   }
-  .section-five .phone-back__text .text-content-title {
-    font-size: 7vw;
+  .section-five .phone-back__text .phone-back__subtitle {
+    margin: 30px 0;
   }
-  .section-five .phone-back__text .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-five .phone-back__text .text-content-description {
-    font-size: 5vw;
+  .section-seven {
+    padding: 70px 0;
   }
   .section-seven .col-md-6 {
     padding: 0 30px;
   }
+  .section-seven .night-mode__text {
+    margin-top: 0;
+  }
+  .section-seven .night-mode__text .night-mode__subtitle {
+    margin: 30px 0;
+  }
   .section-seven .night-mode__text .night-mode__specs {
-    margin: 50px 0;
+    margin: 40px 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .section-seven .night-mode__text {
-    margin-top: 0;
-  }
-  .section-seven .night-mode__text .text-content-title {
-    font-size: 7vw;
-  }
-  .section-seven .night-mode__text .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-seven .night-mode__text .text-content-description {
-    font-size: 5vw;
-  }
   .section-one .section-one__headline {
-    left: 40px;
-    top: 80px;
+    left: 5%;
+    top: 13%;
   }
   .section-one .section-one__headline .headline__title {
-    font-size: 20px;
+    font-size: 3vw;
   }
   .section-one .section-one__headline .headline__subtitle {
-    font-size: 12px;
+    font-size: 1.5vw;
   }
   .section-one .section-one__phone-wrapper {
-    left: 23%;
+    left: 28%;
     top: 38%;
   }
   .section-one .section-one__phone-wrapper .section-one__spiral-pink {
-    left: 10px;
-    top: -278px;
-    width: 600px;
+    left: 52px;
+    top: -169px;
+    width: 100%;
     height: auto;
   }
   .section-one .section-one__phone-wrapper .phone {
-    height: 402px;
-    width: 354px;
+    height: 500px;
+    width: 400px;
   }
   .section-one .section-one__date {
-    right: 40px;
-    top: 80px;
+    right: 5%;
+    top: 13%;
   }
   .section-one .section-one__date .date__text {
-    font-size: 18px;
-  }
-  .section-one .section-one__date .date__box {
-    height: 40px;
-    padding: 0 20px;
+    font-size: 17px;
   }
   .section-one .section-one__date .date__box .date__value {
-    font-size: 18px;
-    line-height: 39px;
+    font-size: 20px;
+    letter-spacing: -1px;
   }
   .section-one .section-one__promotion {
-    right: 40px;
-    bottom: 130px;
+    right: 5%;
+    bottom: 13%;
   }
   .section-one .section-one__promotion .promotion__offer {
     padding: 10px 0;
@@ -694,45 +475,37 @@ and open the template in the editor.
     font-size: 16px;
   }
   .section-one .section-one__phonename {
-    font-size: 100px;
-    left: 40px;
-    bottom: 215px;
+    bottom: 24%;
+    left: 5%;
+    font-size: 12vw;
   }
   .section-one .section-one__phonename .phonename__oppo {
-    letter-spacing: -13px;
+    letter-spacing: -8px;
   }
   .section-one .section-one__phonename .phonename__a92 {
-    letter-spacing: -15px;
+    letter-spacing: -8px;
   }
   .section-one .section-one__price {
-    left: 40px;
-    font-size: 26px;
-    bottom: 130px;
+    left: 5%;
+    bottom: 13%;
+    font-size: 3.5vw;
   }
   .section-one .section-one__price .price__unit {
-    font-size: 24px;
+    font-size: 3vw;
   }
   .section-six {
+    height: 1080px;
     background-position: 68%;
   }
   .section-six .section-six__camera__text-wrapper {
     padding: 20px 25px;
   }
-  .section-six .section-six__camera__text-wrapper .text-content-title {
-    font-size: 35px;
-  }
-  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
-    font-size: 22px;
-  }
   .section-six .section-six__camera {
     width: 90%;
     left: 50%;
+    bottom: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    top: 15px;
-  }
-  .section-six .section-six__camera .camera__description {
-    font-size: 15px;
   }
   .section-six .section-six__camera .popup-moc {
     position: absolute;
@@ -743,7 +516,7 @@ and open the template in the editor.
             transform: rotate(90deg);
   }
   .section-six .camera__subtitle {
-    margin: 20px 0;
+    margin: 30px 0;
   }
   .section-six .section-six__figure {
     position: absolute;
@@ -753,17 +526,29 @@ and open the template in the editor.
     width: 100%;
   }
   .section-six .section-six__figure .camera-wrapper {
-    position: absolute;
-    top: initial;
-    bottom: 0;
-    left: 0;
     width: 100%;
+    bottom: -14%;
+  }
+  .section-six .section-six__figure .camera-wrapper .camera-line {
+    font-size: 2vw;
   }
 }
 
-/*  #Mobile (Portrait) 320px
+/* #Mobile (Landscape) 480px
 ---------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 100px) and (max-width: 479px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  section {
+    min-height: 1024px;
+  }
+  .text-content-title.text-content-title {
+    font-size: 5vw;
+  }
+  .text-content-subtitle.text-content-subtitle {
+    font-size: 4vw;
+  }
+  .text-content-description.text-content-description {
+    font-size: 3vw;
+  }
   .m-center {
     text-align: center;
   }
@@ -775,14 +560,18 @@ and open the template in the editor.
         -ms-flex-align: center;
             align-items: center;
   }
-  .section-two .section-two__battery .text-content-title {
-    font-size: 7vw;
+  .section-two .section-two__battery .battery__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 30px 0;
   }
-  .section-two .section-two__battery .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-two .section-two__battery .text-content-description {
-    font-size: 5vw;
+  .section-two .section-two__battery .battery__subtitle .hyphen {
+    display: none;
   }
   .section-two .section-two-figure {
     margin: 0;
@@ -793,17 +582,270 @@ and open the template in the editor.
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .section-three .screen__content-wrapper .text-content-title {
-    font-size: 7vw;
+  .section-three .screen__content-wrapper .screen__text__headline .screen-subtitle {
+    margin: 30px 0;
   }
-  .section-three .screen__content-wrapper .text-content-subtitle {
-    font-size: 6vw;
+  .section-three .screen__content-wrapper .screen__specs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: static;
+    right: initial;
+    top: initial;
   }
-  .section-three .screen__content-wrapper .text-content-description {
-    font-size: 5vw;
+  .section-three .screen__content-wrapper .screen__specs .specs__details {
+    margin-top: 0;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__label {
+    font-size: 2vw;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number {
+    font-size: 3vw;
+  }
+  .section-three .screen__content-wrapper .screen__specs .details__number .details__number__fhd {
+    font-size: 1.5vw;
+    top: 3px;
+  }
+  .section-three .screen__content-wrapper .screen-description {
+    margin-top: 40px;
+  }
+  .section-three .section-three__figure-container {
+    height: 350px;
+  }
+  .section-three .section-three__figure-container .section-three__figure-wrapper {
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+  }
+  .section-three .section-three__figure-container .section-three__figure-wrapper .section-three__figure {
+    height: 350px;
+    width: 100%;
+  }
+  .section-four {
+    padding: 30px 0;
+  }
+  .section-four .storage-subtitle {
+    margin: 30px 0;
+  }
+  .section-four .storage-circle {
+    margin-top: 20px;
+  }
+  .section-five {
+    padding: 60px 0;
+  }
+  .section-five .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-five .phone-back__figure {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 50px;
+  }
+  .section-five .phone-back__figure .figure__label {
+    font-size: 2.5vw;
+  }
+  .section-five .phone-back__text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding-left: 0;
+    margin-top: 0;
+  }
+  .section-five .phone-back__text .phone-back__subtitle {
+    margin: 30px 0;
+  }
+  .section-seven {
+    padding: 70px 0;
+  }
+  .section-seven .col-md-6 {
+    padding: 0 30px;
+  }
+  .section-seven .night-mode__text {
+    margin-top: 0;
+  }
+  .section-seven .night-mode__text .night-mode__subtitle {
+    margin: 30px 0;
+  }
+  .section-seven .night-mode__text .night-mode__specs {
+    margin: 40px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-one .section-one__headline {
+    left: 5%;
+    top: 13%;
+  }
+  .section-one .section-one__headline .headline__title {
+    font-size: 3vw;
+  }
+  .section-one .section-one__headline .headline__subtitle {
+    font-size: 1.5vw;
+  }
+  .section-one .section-one__phone-wrapper {
+    left: 28%;
+    top: 38%;
+  }
+  .section-one .section-one__phone-wrapper .section-one__spiral-pink {
+    left: 52px;
+    top: -169px;
+    width: 100%;
+    height: auto;
+  }
+  .section-one .section-one__phone-wrapper .phone {
+    height: 500px;
+    width: 400px;
+  }
+  .section-one .section-one__date {
+    right: 5%;
+    top: 13%;
+  }
+  .section-one .section-one__date .date__text {
+    font-size: 17px;
+  }
+  .section-one .section-one__date .date__box .date__value {
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+  .section-one .section-one__promotion {
+    right: 5%;
+    bottom: 13%;
+  }
+  .section-one .section-one__promotion .promotion__offer {
+    padding: 10px 0;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__text {
+    font-size: 17px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number {
+    font-size: 20px;
+  }
+  .section-one .section-one__promotion .promotion__offer .offer__number .offer__number__unit {
+    font-size: 17px;
+  }
+  .section-one .section-one__promotion .promotion__installment {
+    padding: 10px 0;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__value {
+    font-size: 42px;
+  }
+  .section-one .section-one__promotion .promotion__installment .promotion__installment__text {
+    font-size: 16px;
+  }
+  .section-one .section-one__phonename {
+    bottom: 24%;
+    left: 5%;
+    font-size: 12vw;
+  }
+  .section-one .section-one__phonename .phonename__oppo {
+    letter-spacing: -8px;
+  }
+  .section-one .section-one__phonename .phonename__a92 {
+    letter-spacing: -8px;
+  }
+  .section-one .section-one__price {
+    left: 5%;
+    bottom: 13%;
+    font-size: 3.5vw;
+  }
+  .section-one .section-one__price .price__unit {
+    font-size: 3vw;
+  }
+  .section-six {
+    background-position: 68%;
+  }
+  .section-six .section-six__camera__text-wrapper {
+    padding: 20px 25px;
+  }
+  .section-six .section-six__camera {
+    width: 90%;
+    left: 50%;
+    bottom: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .section-six .section-six__camera .popup-moc {
+    position: absolute;
+    right: inherit;
+    bottom: -64px;
+    left: 70px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .section-six .camera__subtitle {
+    margin: 30px 0;
+  }
+  .section-six .section-six__figure {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .section-six .section-six__figure .camera-wrapper {
+    width: 100%;
+    bottom: -14%;
+  }
+  .section-six .section-six__figure .camera-wrapper .camera-line {
+    font-size: 2vw;
+  }
+}
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .text-content-title.text-content-title {
+    font-size: 6.5vw;
+  }
+  .text-content-subtitle.text-content-subtitle {
+    font-size: 4vw;
+  }
+  .text-content-description.text-content-description {
+    font-size: 3.5vw;
+  }
+  .m-center {
+    text-align: center;
+  }
+  .section-two .section-two__battery {
+    margin: 50px 0;
+  }
+  .section-two .section-two__battery .battery__title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-two .section-two__battery .battery__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 30px 0;
+  }
+  .section-two .section-two__battery .battery__subtitle .hyphen {
+    display: none;
+  }
+  .section-two .section-two-figure {
+    margin: 0;
+  }
+  .section-three .screen__content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .section-three .screen__content-wrapper .screen__text__headline .screen-subtitle {
-    margin: 40px 0;
+    margin: 30px 0;
   }
   .section-three .screen__content-wrapper .screen__specs {
     display: -webkit-box;
@@ -848,17 +890,8 @@ and open the template in the editor.
   .section-four {
     padding: 30px 0;
   }
-  .section-four .storage-info .text-content-title {
-    font-size: 7vw;
-  }
-  .section-four .storage-info .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-four .storage-info .text-content-description {
-    font-size: 5vw;
-  }
   .section-four .storage-subtitle {
-    margin: 20px 0;
+    margin: 30px 0;
   }
   .section-four .storage-circle {
     margin-top: 20px;
@@ -888,45 +921,36 @@ and open the template in the editor.
     padding-left: 0;
     margin-top: 0;
   }
-  .section-five .phone-back__text .text-content-title {
-    font-size: 7vw;
+  .section-five .phone-back__text .phone-back__subtitle {
+    margin: 30px 0;
   }
-  .section-five .phone-back__text .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-five .phone-back__text .text-content-description {
-    font-size: 5vw;
+  .section-seven {
+    padding: 70px 0;
   }
   .section-seven .col-md-6 {
     padding: 0 30px;
   }
-  .section-seven .night-mode__text .night-mode__specs {
-    margin: 50px 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .section-seven .night-mode__text {
     margin-top: 0;
   }
-  .section-seven .night-mode__text .text-content-title {
-    font-size: 7vw;
+  .section-seven .night-mode__text .night-mode__subtitle {
+    margin: 30px 0;
   }
-  .section-seven .night-mode__text .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-seven .night-mode__text .text-content-description {
-    font-size: 5vw;
+  .section-seven .night-mode__text .night-mode__specs {
+    margin: 40px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .section-one .section-one__headline {
     left: 15px;
     top: 135px;
   }
   .section-one .section-one__headline .headline__title {
-    font-size: 20px;
+    font-size: 4.5vw;
   }
   .section-one .section-one__headline .headline__subtitle {
-    font-size: 12px;
+    font-size: 2.5vw;
   }
   .section-one .section-one__phone-wrapper {
     left: 0;
@@ -1012,24 +1036,25 @@ and open the template in the editor.
     font-size: 16px;
   }
   .section-one .section-one__phonename {
-    font-size: 72px;
+    font-size: 18vw;
     left: 15px;
     bottom: inherit;
     top: 20px;
   }
   .section-one .section-one__phonename .phonename__oppo {
-    letter-spacing: -13px;
+    letter-spacing: -8px;
   }
   .section-one .section-one__phonename .phonename__a92 {
-    letter-spacing: -15px;
+    letter-spacing: -8px;
   }
   .section-one .section-one__price {
-    left: 40px;
-    font-size: 26px;
-    bottom: 130px;
+    left: 15px;
+    top: 30%;
+    bottom: auto;
+    font-size: 5vw;
   }
   .section-one .section-one__price .price__unit {
-    font-size: 24px;
+    font-size: 4vw;
   }
   .section-six {
     background-position: 68%;
@@ -1037,24 +1062,12 @@ and open the template in the editor.
   .section-six .section-six__camera__text-wrapper {
     padding: 20px 25px;
   }
-  .section-six .section-six__camera__text-wrapper .text-content-title {
-    font-size: 7vw;
-  }
-  .section-six .section-six__camera__text-wrapper .text-content-subtitle {
-    font-size: 6vw;
-  }
-  .section-six .section-six__camera__text-wrapper .text-content-description {
-    font-size: 5vw;
-  }
   .section-six .section-six__camera {
     width: 90%;
     left: 50%;
+    bottom: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    top: 15px;
-  }
-  .section-six .section-six__camera .camera__description {
-    font-size: 15px;
   }
   .section-six .section-six__camera .popup-moc {
     position: absolute;
@@ -1065,7 +1078,7 @@ and open the template in the editor.
             transform: rotate(90deg);
   }
   .section-six .camera__subtitle {
-    margin: 20px 0;
+    margin: 30px 0;
   }
   .section-six .section-six__figure {
     position: absolute;
@@ -1081,20 +1094,8 @@ and open the template in the editor.
     left: 0;
     width: 100%;
   }
-  .section-six .section-six__figure .camera-wrapper .camera-line-1 {
-    padding-left: 18px;
-  }
-  .section-six .section-six__figure .camera-wrapper .camera-line-2 {
-    padding-left: 62px;
-    padding-top: 13px;
-  }
-  .section-six .section-six__figure .camera-wrapper .camera-line-3 {
-    padding-left: 89px;
-    height: 95px;
-  }
-  .section-six .section-six__figure .camera-wrapper .camera-line-4 {
-    padding-left: 91px;
-    height: 157px;
+  .section-six .section-six__figure .camera-wrapper .camera-line {
+    font-size: 3vw;
   }
 }
 /*# sourceMappingURL=reponsive.css.map */

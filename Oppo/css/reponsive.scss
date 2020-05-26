@@ -125,105 +125,75 @@ and open the template in the editor.
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
-  .section-one {
-    .section-one__headline {
-      left: 40px;
-      top: 80px;
-      .headline__title {
-        font-size: 20px;
-      }
-      .headline__subtitle {
-        font-size: 12px;
-      }
+  .text-content-title {
+    &#{&} {
+      font-size: 3.5vw;
     }
-
-    .section-one__phone-wrapper {
-      left: 23%;
-      top: 38%;
-
-      .section-one__spiral-pink {
-        left: 10px;
-        top: -278px;
-        width: 600px;
-        height: auto;
-      }
-      .phone {
-        height: 600px;
-        width: 480px;
-      }
+  }
+  .text-content-subtitle {
+    &#{&} {
+      font-size: 2.5vw;
     }
-
-    .section-one__date {
-      right: 40px;
-      top: 80px;
-      .date__text {
-        font-size: 18px;
-      }
-      .date__box {
-        height: 40px;
-        padding: 0 20px;
-        .date__value {
-          font-size: 18px;
-          line-height: 39px;
-        }
-      }
+  }
+  .text-content-description {
+    &#{&} {
+      font-size: 2vw;
     }
+  }
 
-    .section-one__promotion {
-      right: 40px;
-      bottom: 130px;
+  .m-center {
+    text-align: center;
+  }
 
-      .promotion__offer {
-        padding: 10px 0;
-        .offer__text {
-          font-size: 17px;
-        }
-        .offer__number {
-          font-size: 20px;
-          .offer__number__unit {
-            font-size: 17px;
-          }
-        }
-      }
+  .section-two {
+    .section-two__battery {
+      text-align: left;
 
-      .promotion__installment {
-        padding: 10px 0;
-        .promotion__installment__value {
-          font-size: 42px;
-        }
-        .promotion__installment__text {
-          font-size: 16px;
-        }
-      }
-    }
-
-    .section-one__phonename {
-      font-size: 13.5vw;
-      left: 40px;
-      bottom: 215px;
-      .phonename__oppo {
-        letter-spacing: -13px;
-      }
-      .phonename__a92 {
-        letter-spacing: -15px;
-      }
-    }
-
-    .section-one__price {
-      left: 40px;
-      font-size: 26px;
-      bottom: 130px;
-      .price__unit {
-        font-size: 24px;
+      .battery__subtitle {
+        margin: 30px 0;
       }
     }
   }
 
   .section-three {
-    .section-three__figure-wrapper {
-      .section-three__figure {
-        width: 100%;
+    .screen__content-wrapper {
+      // flex-direction: column;
+      text-align: left;
+
+      .screen__text__headline {
+        .screen-subtitle {
+          margin: 30px 0;
+        }
       }
+      .screen__specs {
+        .specs__details {
+          & + .specs__details {
+            margin-top: 40px;
+          }
+        }
+        .details__label {
+          font-size: 1.5vw;
+        }
+        .details__number {
+          font-size: 2.5vw;
+
+          .details__number__fhd {
+            font-size: 1vw;
+            top: 3px;
+          }
+        }
+      }
+    }
+  }
+
+  .section-four {
+    padding: 30px 0;
+
+    .storage-subtitle {
+      margin: 30px 0;
+    }
+    .storage-circle {
+      margin-top: 20px;
     }
   }
 
@@ -233,99 +203,86 @@ and open the template in the editor.
         font-size: 1.2vw;
       }
     }
+    .phone-back__text {
+      padding-left: 20px;
+      margin-top: 100px;
+
+      .phone-back__subtitle {
+        margin: 30px 0;
+      }
+    }
   }
 
   .section-seven {
+    padding: 70px 0;
+
+    .col-md-6 {
+      padding: 0 30px;
+    }
     .night-mode__text {
       margin-top: 0;
 
-      .text-content-title {
-        font-size: 43px;
+      .night-mode__subtitle {
+        margin: 30px 0;
+      }
+
+      .night-mode__specs {
+        margin: 40px 0;
+        justify-content: center;
       }
     }
   }
-
-  .section-six {
-    .section-six__camera__text-wrapper {
-      padding: 40px 25px;
-
-      .text-content-title {
-        font-size: 38px;
-      }
-      .text-content-subtitle {
-        font-size: 27px;
-      }
-    }
-
-    .section-six__camera {
-      width: 44%;
-      left: 15px;
-      .camera__description {
-        font-size: 20px;
-      }
-    }
-    .camera__subtitle {
-      margin: 20px 0 40px 0;
-    }
-  }
-}
-/* #Tablet (Portrait) 768px
----------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  .m-center {
-    text-align: center;
-  }
-
   .section-one {
     .section-one__headline {
-      left: 40px;
-      top: 80px;
+      left: 5%;
+      top: 13%;
+
       .headline__title {
-        font-size: 20px;
+        font-size: 3vw;
       }
       .headline__subtitle {
-        font-size: 12px;
+        font-size: 1.5vw;
       }
     }
 
     .section-one__phone-wrapper {
-      left: 23%;
+      left: 28%;
       top: 38%;
 
       .section-one__spiral-pink {
-        left: 10px;
-        top: -278px;
-        width: 600px;
+        left: 52px;
+        top: -169px;
+        width: 100%;
         height: auto;
       }
       .phone {
-        height: 600px;
-        width: 480px;
+        height: 500px;
+        width: 400px;
       }
     }
 
     .section-one__date {
-      right: 40px;
-      top: 80px;
+      right: 5%;
+      top: 13%;
+
       .date__text {
-        font-size: 18px;
+        font-size: 17px;
       }
       .date__box {
-        height: 40px;
-        padding: 0 20px;
         .date__value {
-          font-size: 18px;
-          line-height: 39px;
+          font-size: 20px;
+          letter-spacing: -1px;
         }
       }
     }
 
     .section-one__promotion {
-      right: 40px;
-      bottom: 130px;
+      right: 5%;
+      bottom: 13%;
 
       .promotion__offer {
         padding: 10px 0;
+
         .offer__text {
           font-size: 17px;
         }
@@ -339,6 +296,7 @@ and open the template in the editor.
 
       .promotion__installment {
         padding: 10px 0;
+
         .promotion__installment__value {
           font-size: 42px;
         }
@@ -349,235 +307,88 @@ and open the template in the editor.
     }
 
     .section-one__phonename {
-      font-size: 100px;
-      left: 40px;
-      bottom: 215px;
+      bottom: 24%;
+      left: 5%;
+      font-size: 12vw;
+
       .phonename__oppo {
-        letter-spacing: -13px;
+        letter-spacing: -8px;
       }
       .phonename__a92 {
-        letter-spacing: -15px;
+        letter-spacing: -8px;
       }
     }
 
     .section-one__price {
-      left: 40px;
-      font-size: 26px;
-      bottom: 130px;
+      left: 5%;
+      bottom: 13%;
+      font-size: 3.5vw;
+
       .price__unit {
-        font-size: 24px;
-      }
-    }
-  }
-
-  .section-two {
-    .section-two__battery {
-      margin: 50px 0;
-      .battery__title {
-        align-items: center;
-      }
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
-      }
-    }
-
-    .section-two-figure {
-      margin: 0;
-    }
-  }
-
-  .section-three {
-    .screen__content-wrapper {
-      .text-content-title {
-        font-size: 5vw;
-      }
-      .text-content-subtitle {
-        font-size: 4vw;
-      }
-      .text-content-description {
-        font-size: 3vw;
-      }
-
-      .screen__specs {
-        .details__number {
-          font-size: 3vw;
-          .details__number__fhd {
-            font-size: 1.5vw;
-            top: 5px;
-          }
-        }
-      }
-    }
-
-    .section-three__figure-wrapper {
-      left: 0;
-      transform: none;
-      width: 100%;
-
-      .section-three__figure {
-        width: 100%;
-      }
-    }
-  }
-
-  .section-four {
-    padding: 30px 0;
-
-    .storage-info {
-      .text-content-title {
-        font-size: 5vw;
-      }
-      .text-content-subtitle {
-        font-size: 4vw;
-      }
-      .text-content-description {
-        font-size: 3vw;
-      }
-    }
-
-    .storage-circle {
-      margin-top: 70px;
-    }
-  }
-
-  .section-five {
-    padding: 60px 0;
-
-    .container {
-      flex-direction: column;
-    }
-    .phone-back__figure {
-      order: 2;
-      margin-top: 50px;
-
-      .figure__label {
-        font-size: 2.5vw;
-      }
-    }
-    .phone-back__text {
-      order: 1;
-      padding-left: 0;
-      margin-top: 0;
-
-      .text-content-title {
-        font-size: 5vw;
-      }
-      .text-content-subtitle {
-        font-size: 4vw;
-      }
-      .text-content-description {
-        font-size: 3vw;
-      }
-    }
-  }
-
-  .section-seven {
-    .col-md-6 {
-      padding: 0 30px;
-    }
-
-    .night-mode__text .night-mode__specs {
-      margin: 50px 0;
-      justify-content: center;
-    }
-
-    .night-mode__text {
-      margin-top: 0;
-
-      .text-content-title {
-        font-size: 5vw;
-      }
-      .text-content-subtitle {
-        font-size: 4vw;
-      }
-      .text-content-description {
         font-size: 3vw;
       }
     }
   }
 
   .section-six {
-    background-position: 68%;
-    .section-six__camera__text-wrapper {
-      padding: 20px 25px;
-      .text-content-title {
-        font-size: 35px;
-      }
-      .text-content-subtitle {
-        font-size: 22px;
-      }
-    }
-
     .section-six__camera {
-      width: 90%;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 15px;
-      .camera__description {
-        font-size: 15px;
-      }
-      .popup-moc {
-        position: absolute;
-        right: inherit;
-        bottom: -64px;
-        left: 70px;
-        transform: rotate(90deg);
-      }
+      text-align: left;
+      width: 42%;
+      left: 5%;
     }
     .camera__subtitle {
-      margin: 20px 0;
+      margin: 30px 0;
     }
 
     .section-six__figure {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
       .camera-wrapper {
-        position: absolute;
-        top: initial;
         bottom: 0;
-        left: 0;
-        width: 100%;
-        .camera-line-2 {
-          padding-top: 17px;
+        left: 88px;
+        width: 700px;
+
+        .camera-line {
+          font-size: 1.5vw;
         }
       }
     }
   }
 }
-/* #Mobile (Landscape) 480px
+/* #Tablet (Portrait) 768px
 ---------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  section {
-    min-height: 1024px;
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .text-content-title {
+    &#{&} {
+      font-size: 5vw;
+    }
+  }
+  .text-content-subtitle {
+    &#{&} {
+      font-size: 4vw;
+    }
+  }
+  .text-content-description {
+    &#{&} {
+      font-size: 3vw;
+    }
   }
 
   .m-center {
     text-align: center;
   }
-
   .section-two {
     .section-two__battery {
       margin: 50px 0;
       .battery__title {
         align-items: center;
       }
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
+      .battery__subtitle {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+
+        .hyphen {
+          display: none;
+        }
       }
     }
 
@@ -590,34 +401,26 @@ and open the template in the editor.
     .screen__content-wrapper {
       flex-direction: column;
 
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
-      }
-
       .screen__text__headline {
         .screen-subtitle {
-          margin: 40px 0;
+          margin: 30px 0;
         }
       }
-
       .screen__specs {
         display: flex;
         justify-content: space-between;
+        position: static;
+        right: initial;
+        top: initial;
 
         .specs__details {
           margin-top: 0;
         }
         .details__label {
-          font-size: 3vw;
+          font-size: 2vw;
         }
         .details__number {
-          font-size: 3.5vw;
+          font-size: 3vw;
           .details__number__fhd {
             font-size: 1.5vw;
             top: 3px;
@@ -649,22 +452,9 @@ and open the template in the editor.
   .section-four {
     padding: 30px 0;
 
-    .storage-info {
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
-      }
-    }
-
     .storage-subtitle {
-      margin: 20px 0;
+      margin: 30px 0;
     }
-
     .storage-circle {
       margin-top: 20px;
     }
@@ -689,91 +479,82 @@ and open the template in the editor.
       padding-left: 0;
       margin-top: 0;
 
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
+      .phone-back__subtitle {
+        margin: 30px 0;
       }
     }
   }
 
   .section-seven {
+    padding: 70px 0;
+
     .col-md-6 {
       padding: 0 30px;
-    }
-    .night-mode__text .night-mode__specs {
-      margin: 50px 0;
-      justify-content: center;
     }
     .night-mode__text {
       margin-top: 0;
 
-      .text-content-title {
-        font-size: 7vw;
+      .night-mode__subtitle {
+        margin: 30px 0;
       }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
+
+      .night-mode__specs {
+        margin: 40px 0;
+        justify-content: center;
       }
     }
   }
-
   .section-one {
     .section-one__headline {
-      left: 40px;
-      top: 80px;
+      left: 5%;
+      top: 13%;
+
       .headline__title {
-        font-size: 20px;
+        font-size: 3vw;
       }
       .headline__subtitle {
-        font-size: 12px;
+        font-size: 1.5vw;
       }
     }
 
     .section-one__phone-wrapper {
-      left: 23%;
+      left: 28%;
       top: 38%;
 
       .section-one__spiral-pink {
-        left: 10px;
-        top: -278px;
-        width: 600px;
+        left: 52px;
+        top: -169px;
+        width: 100%;
         height: auto;
       }
       .phone {
-        height: 402px;
-        width: 354px;
+        height: 500px;
+        width: 400px;
       }
     }
 
     .section-one__date {
-      right: 40px;
-      top: 80px;
+      right: 5%;
+      top: 13%;
+
       .date__text {
-        font-size: 18px;
+        font-size: 17px;
       }
       .date__box {
-        height: 40px;
-        padding: 0 20px;
         .date__value {
-          font-size: 18px;
-          line-height: 39px;
+          font-size: 20px;
+          letter-spacing: -1px;
         }
       }
     }
 
     .section-one__promotion {
-      right: 40px;
-      bottom: 130px;
+      right: 5%;
+      bottom: 13%;
 
       .promotion__offer {
         padding: 10px 0;
+
         .offer__text {
           font-size: 17px;
         }
@@ -787,6 +568,7 @@ and open the template in the editor.
 
       .promotion__installment {
         padding: 10px 0;
+
         .promotion__installment__value {
           font-size: 42px;
         }
@@ -797,47 +579,43 @@ and open the template in the editor.
     }
 
     .section-one__phonename {
-      font-size: 100px;
-      left: 40px;
-      bottom: 215px;
+      bottom: 24%;
+      left: 5%;
+      font-size: 12vw;
+
       .phonename__oppo {
-        letter-spacing: -13px;
+        letter-spacing: -8px;
       }
       .phonename__a92 {
-        letter-spacing: -15px;
+        letter-spacing: -8px;
       }
     }
 
     .section-one__price {
-      left: 40px;
-      font-size: 26px;
-      bottom: 130px;
+      left: 5%;
+      bottom: 13%;
+      font-size: 3.5vw;
+
       .price__unit {
-        font-size: 24px;
+        font-size: 3vw;
       }
     }
   }
 
   .section-six {
+    height: 1080px;
     background-position: 68%;
+
     .section-six__camera__text-wrapper {
       padding: 20px 25px;
-      .text-content-title {
-        font-size: 35px;
-      }
-      .text-content-subtitle {
-        font-size: 22px;
-      }
     }
 
     .section-six__camera {
       width: 90%;
       left: 50%;
+      bottom: 50%;
       transform: translateX(-50%);
-      top: 15px;
-      .camera__description {
-        font-size: 15px;
-      }
+
       .popup-moc {
         position: absolute;
         right: inherit;
@@ -847,7 +625,7 @@ and open the template in the editor.
       }
     }
     .camera__subtitle {
-      margin: 20px 0;
+      margin: 30px 0;
     }
 
     .section-six__figure {
@@ -856,19 +634,45 @@ and open the template in the editor.
       right: 0;
       height: 100%;
       width: 100%;
+
       .camera-wrapper {
-        position: absolute;
-        top: initial;
-        bottom: 0;
-        left: 0;
+        // position: absolute;
+        // top: initial;
+        // bottom: 0;
+        // left: 0;
         width: 100%;
+        bottom: -14%;
+
+        .camera-line {
+          font-size: 2vw;
+        }
       }
     }
   }
 }
-/*  #Mobile (Portrait) 320px
+/* #Mobile (Landscape) 480px
 ---------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 100px) and (max-width: 479px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  section {
+    min-height: 1024px;
+  }
+
+  .text-content-title {
+    &#{&} {
+      font-size: 5vw;
+    }
+  }
+  .text-content-subtitle {
+    &#{&} {
+      font-size: 4vw;
+    }
+  }
+  .text-content-description {
+    &#{&} {
+      font-size: 3vw;
+    }
+  }
+
   .m-center {
     text-align: center;
   }
@@ -878,14 +682,14 @@ and open the template in the editor.
       .battery__title {
         align-items: center;
       }
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
+      .battery__subtitle {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+
+        .hyphen {
+          display: none;
+        }
       }
     }
 
@@ -898,22 +702,308 @@ and open the template in the editor.
     .screen__content-wrapper {
       flex-direction: column;
 
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
-      }
-
       .screen__text__headline {
         .screen-subtitle {
-          margin: 40px 0;
+          margin: 30px 0;
+        }
+      }
+      .screen__specs {
+        display: flex;
+        justify-content: space-between;
+        position: static;
+        right: initial;
+        top: initial;
+
+        .specs__details {
+          margin-top: 0;
+        }
+        .details__label {
+          font-size: 2vw;
+        }
+        .details__number {
+          font-size: 3vw;
+          .details__number__fhd {
+            font-size: 1.5vw;
+            top: 3px;
+          }
         }
       }
 
+      .screen-description {
+        margin-top: 40px;
+      }
+    }
+
+    .section-three__figure-container {
+      height: 350px;
+
+      .section-three__figure-wrapper {
+        left: 0;
+        transform: none;
+        width: 100%;
+
+        .section-three__figure {
+          height: 350px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .section-four {
+    padding: 30px 0;
+
+    .storage-subtitle {
+      margin: 30px 0;
+    }
+    .storage-circle {
+      margin-top: 20px;
+    }
+  }
+
+  .section-five {
+    padding: 60px 0;
+
+    .container {
+      flex-direction: column;
+    }
+    .phone-back__figure {
+      order: 2;
+      margin-top: 50px;
+
+      .figure__label {
+        font-size: 2.5vw;
+      }
+    }
+    .phone-back__text {
+      order: 1;
+      padding-left: 0;
+      margin-top: 0;
+
+      .phone-back__subtitle {
+        margin: 30px 0;
+      }
+    }
+  }
+
+  .section-seven {
+    padding: 70px 0;
+
+    .col-md-6 {
+      padding: 0 30px;
+    }
+    .night-mode__text {
+      margin-top: 0;
+
+      .night-mode__subtitle {
+        margin: 30px 0;
+      }
+
+      .night-mode__specs {
+        margin: 40px 0;
+        justify-content: center;
+      }
+    }
+  }
+  .section-one {
+    .section-one__headline {
+      left: 5%;
+      top: 13%;
+
+      .headline__title {
+        font-size: 3vw;
+      }
+      .headline__subtitle {
+        font-size: 1.5vw;
+      }
+    }
+
+    .section-one__phone-wrapper {
+      left: 28%;
+      top: 38%;
+
+      .section-one__spiral-pink {
+        left: 52px;
+        top: -169px;
+        width: 100%;
+        height: auto;
+      }
+      .phone {
+        height: 500px;
+        width: 400px;
+      }
+    }
+
+    .section-one__date {
+      right: 5%;
+      top: 13%;
+
+      .date__text {
+        font-size: 17px;
+      }
+      .date__box {
+        .date__value {
+          font-size: 20px;
+          letter-spacing: -1px;
+        }
+      }
+    }
+
+    .section-one__promotion {
+      right: 5%;
+      bottom: 13%;
+
+      .promotion__offer {
+        padding: 10px 0;
+
+        .offer__text {
+          font-size: 17px;
+        }
+        .offer__number {
+          font-size: 20px;
+          .offer__number__unit {
+            font-size: 17px;
+          }
+        }
+      }
+
+      .promotion__installment {
+        padding: 10px 0;
+
+        .promotion__installment__value {
+          font-size: 42px;
+        }
+        .promotion__installment__text {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .section-one__phonename {
+      bottom: 24%;
+      left: 5%;
+      font-size: 12vw;
+
+      .phonename__oppo {
+        letter-spacing: -8px;
+      }
+      .phonename__a92 {
+        letter-spacing: -8px;
+      }
+    }
+
+    .section-one__price {
+      left: 5%;
+      bottom: 13%;
+      font-size: 3.5vw;
+
+      .price__unit {
+        font-size: 3vw;
+      }
+    }
+  }
+
+  .section-six {
+    background-position: 68%;
+
+    .section-six__camera__text-wrapper {
+      padding: 20px 25px;
+    }
+
+    .section-six__camera {
+      width: 90%;
+      left: 50%;
+      bottom: 50%;
+      transform: translateX(-50%);
+
+      .popup-moc {
+        position: absolute;
+        right: inherit;
+        bottom: -64px;
+        left: 70px;
+        transform: rotate(90deg);
+      }
+    }
+    .camera__subtitle {
+      margin: 30px 0;
+    }
+
+    .section-six__figure {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+
+      .camera-wrapper {
+        // position: absolute;
+        // top: initial;
+        // bottom: 0;
+        // left: 0;
+        width: 100%;
+        bottom: -14%;
+
+        .camera-line {
+          font-size: 2vw;
+        }
+      }
+    }
+  }
+}
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .text-content-title {
+    &#{&} {
+      font-size: 6.5vw;
+    }
+  }
+  .text-content-subtitle {
+    &#{&} {
+      font-size: 4vw;
+    }
+  }
+  .text-content-description {
+    &#{&} {
+      font-size: 3.5vw;
+    }
+  }
+
+  .m-center {
+    text-align: center;
+  }
+  .section-two {
+    .section-two__battery {
+      margin: 50px 0;
+      .battery__title {
+        align-items: center;
+      }
+      .battery__subtitle {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+
+        .hyphen {
+          display: none;
+        }
+      }
+    }
+
+    .section-two-figure {
+      margin: 0;
+    }
+  }
+
+  .section-three {
+    .screen__content-wrapper {
+      flex-direction: column;
+
+      .screen__text__headline {
+        .screen-subtitle {
+          margin: 30px 0;
+        }
+      }
       .screen__specs {
         display: flex;
         justify-content: space-between;
@@ -960,22 +1050,9 @@ and open the template in the editor.
   .section-four {
     padding: 30px 0;
 
-    .storage-info {
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
-      }
-    }
-
     .storage-subtitle {
-      margin: 20px 0;
+      margin: 30px 0;
     }
-
     .storage-circle {
       margin-top: 20px;
     }
@@ -1000,37 +1077,28 @@ and open the template in the editor.
       padding-left: 0;
       margin-top: 0;
 
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
+      .phone-back__subtitle {
+        margin: 30px 0;
       }
     }
   }
 
   .section-seven {
+    padding: 70px 0;
+
     .col-md-6 {
       padding: 0 30px;
-    }
-    .night-mode__text .night-mode__specs {
-      margin: 50px 0;
-      justify-content: center;
     }
     .night-mode__text {
       margin-top: 0;
 
-      .text-content-title {
-        font-size: 7vw;
+      .night-mode__subtitle {
+        margin: 30px 0;
       }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
+
+      .night-mode__specs {
+        margin: 40px 0;
+        justify-content: center;
       }
     }
   }
@@ -1039,10 +1107,10 @@ and open the template in the editor.
       left: 15px;
       top: 135px;
       .headline__title {
-        font-size: 20px;
+        font-size: 4.5vw;
       }
       .headline__subtitle {
-        font-size: 12px;
+        font-size: 2.5vw;
       }
     }
 
@@ -1136,24 +1204,26 @@ and open the template in the editor.
     }
 
     .section-one__phonename {
-      font-size: 72px;
+      font-size: 18vw;
       left: 15px;
       bottom: inherit;
       top: 20px;
       .phonename__oppo {
-        letter-spacing: -13px;
+        letter-spacing: -8px;
       }
       .phonename__a92 {
-        letter-spacing: -15px;
+        letter-spacing: -8px;
       }
     }
 
     .section-one__price {
-      left: 40px;
-      font-size: 26px;
-      bottom: 130px;
+      left: 15px;
+      top: 30%;
+      bottom: auto;
+      font-size: 5vw;
+
       .price__unit {
-        font-size: 24px;
+        font-size: 4vw;
       }
     }
   }
@@ -1162,26 +1232,14 @@ and open the template in the editor.
     background-position: 68%;
     .section-six__camera__text-wrapper {
       padding: 20px 25px;
-
-      .text-content-title {
-        font-size: 7vw;
-      }
-      .text-content-subtitle {
-        font-size: 6vw;
-      }
-      .text-content-description {
-        font-size: 5vw;
-      }
     }
 
     .section-six__camera {
       width: 90%;
       left: 50%;
+      bottom: 50%;
       transform: translateX(-50%);
-      top: 15px;
-      .camera__description {
-        font-size: 15px;
-      }
+
       .popup-moc {
         position: absolute;
         right: inherit;
@@ -1191,7 +1249,7 @@ and open the template in the editor.
       }
     }
     .camera__subtitle {
-      margin: 20px 0;
+      margin: 30px 0;
     }
 
     .section-six__figure {
@@ -1200,26 +1258,16 @@ and open the template in the editor.
       right: 0;
       height: 100%;
       width: 100%;
+
       .camera-wrapper {
         position: absolute;
         top: initial;
         bottom: 0;
         left: 0;
         width: 100%;
-        .camera-line-1 {
-          padding-left: 18px;
-        }
-        .camera-line-2 {
-          padding-left: 62px;
-          padding-top: 13px;
-        }
-        .camera-line-3 {
-          padding-left: 89px;
-          height: 95px;
-        }
-        .camera-line-4 {
-          padding-left: 91px;
-          height: 157px;
+
+        .camera-line {
+          font-size: 3vw;
         }
       }
     }
