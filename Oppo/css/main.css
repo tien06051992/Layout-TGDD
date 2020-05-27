@@ -62,7 +62,11 @@
   background-color: white;
 }
 
-.navbar-header .icon-bar {
+.navbar .navbar-header {
+  padding: 10px 0;
+}
+
+.navbar .navbar-header .icon-bar {
   background-color: black;
 }
 
@@ -70,6 +74,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 10px 0;
 }
 
 .navbar-list ul {
@@ -111,8 +116,14 @@
   font-size: 16px;
 }
 
+.navbar-region {
+  padding: 15px 0;
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
   .navbar-list {
+    padding: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -122,11 +133,6 @@
     display: block;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
-}
-
-.navbar-region {
-  padding: 15px 0;
-  text-align: center;
 }
 
 .section-one {
