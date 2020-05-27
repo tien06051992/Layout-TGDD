@@ -125,6 +125,10 @@ and open the template in the editor.
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
+  section {
+    padding: 0 30px;
+  }
+
   .text-content-title {
     &#{&} {
       font-size: 3.5vw;
@@ -187,7 +191,7 @@ and open the template in the editor.
   }
 
   .section-four {
-    padding: 30px 0;
+    padding: 30px;
 
     .storage-subtitle {
       margin: 30px 0;
@@ -198,6 +202,8 @@ and open the template in the editor.
   }
 
   .section-five {
+    padding: 0 30px;
+
     .phone-back__figure {
       .figure__label {
         font-size: 1.2vw;
@@ -214,7 +220,7 @@ and open the template in the editor.
   }
 
   .section-seven {
-    padding: 70px 0;
+    padding: 70px 30px;
 
     .col-md-6 {
       padding: 0 30px;
@@ -713,6 +719,9 @@ and open the template in the editor.
   }
 
   .section-three {
+    .section-three__screen {
+      padding: 50px 26px;
+    }
     .screen__content-wrapper {
       flex-direction: column;
 
@@ -1016,6 +1025,9 @@ and open the template in the editor.
   }
 
   .section-three {
+    .section-three__screen {
+      padding: 50px 26px;
+    }
     .screen__content-wrapper {
       flex-direction: column;
 
@@ -1070,11 +1082,20 @@ and open the template in the editor.
   .section-four {
     padding: 30px 0;
 
+    .storage-info {
+      margin-top: 20px;
+    }
+
     .storage-subtitle {
       margin: 30px 0;
     }
+
     .storage-circle {
       margin-top: 20px;
+    }
+
+    .storage-description p + p {
+      margin-top: 15px;
     }
   }
 
@@ -1250,6 +1271,7 @@ and open the template in the editor.
 
   .section-six {
     background-position: 68%;
+    height: 100vh;
     .section-six__camera__text-wrapper {
       padding: 20px 25px;
     }
