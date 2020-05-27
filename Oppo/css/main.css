@@ -22,6 +22,10 @@
   }
 }
 
+.show-on-mobile {
+  display: none !important;
+}
+
 .block {
   display: block;
 }
@@ -127,7 +131,6 @@
 
 .section-one {
   position: relative;
-  height: 100vh;
   background-color: #1a0f32;
   background-image: url("../images/section1_bg.png");
   background-size: cover;
@@ -138,6 +141,28 @@
 .section-one::before {
   display: table;
   content: " ";
+}
+
+.section-one__phone-wrapper-desktop {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.section-one__phone-wrapper-desktop .section-one__spiral-pink {
+  position: absolute;
+  top: -37%;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.section-one__phone-wrapper-desktop .phone {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
 }
 
 .section-one__headline {

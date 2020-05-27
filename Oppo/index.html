@@ -26,8 +26,7 @@
   <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
   <style>
     body {
-      padding-top: 50px;
-      padding-bottom: 20px;
+      padding-top: 70px;
     }
   </style>
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -83,13 +82,20 @@
   </nav>
 
   <section class="section-one">
-    <div class="section-one__phone-wrapper">
+
+    <div class="section-one__phone-wrapper-desktop hide-on-mobile">
+      <img class="section-one__spiral-pink" src="images/spiral-pink-full.png" alt="spiral-pink" data-aos="fade-zoom-in"
+        ata-aos-easing="ease-in-sine" data-aos-duration="3000" data-aos-delay="1000" />
+      <img class="phone" src="images/section1_group.png" alt="phone group">
+    </div>
+
+    <div class="section-one__phone-wrapper show-on-mobile">
       <img class="section-one__spiral-pink" src="images/spiral-pink.png" alt="spiral-pink" data-aos="fade-zoom-in"
         ata-aos-easing="ease-in-sine" data-aos-duration="3000" data-aos-delay="1000" />
       <img class="phone" src="images/phone-1.png" alt="phone a92">
     </div>
 
-    <h2 class="section-one__headline" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <h2 class="section-one__headline show-on-mobile" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <span class="headline__title">
         MƯỢT NHƯ MƠ, KHÔNG LO BỎ LỠ
       </span>
@@ -99,7 +105,7 @@
 
     </h2>
 
-    <div class="section-one__date">
+    <div class="section-one__date show-on-mobile">
       <span class="date__text">
         Duy nhất
       </span>
@@ -108,7 +114,7 @@
       </div>
     </div>
 
-    <div class="section-one__promotion" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000">
+    <div class="section-one__promotion show-on-mobile" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000">
       <div class="promotion__border">
         <div class="promotion__offer">
           <span class="offer__text">Tặng ngay</span>
@@ -128,7 +134,7 @@
       </div>
     </div>
 
-    <div class="section-one__phonename">
+    <div class="section-one__phonename show-on-mobile">
       <span class="phonename__oppo">
         OPPO
       </span>
@@ -137,11 +143,10 @@
       </span>
     </div>
 
-    <div class="section-one__price">
+    <div class="section-one__price show-on-mobile">
       <span class="price__value">X.XXX.XXX</span>
       <span class="price__unit">đ</span>
     </div>
-
   </section> <!-- /section-one-->
 
   <div class="section-two-three-wrapper">
@@ -291,6 +296,10 @@
   </div>
 
   <section class="section-six">
+    <video loop autoplay muted>
+      <source src="video/section6camera2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <div class="section-six__camera m-center">
       <div class="section-six__camera__text-wrapper">
         <div class="camera__title text-content-title text-gradient">

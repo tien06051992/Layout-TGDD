@@ -91,12 +91,6 @@ and open the template in the editor.
 
 /* #Special for all max 820px
 ---------------------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 820px) {
-  section {
-    min-height: 768px;
-  }
-}
-
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
@@ -552,6 +546,9 @@ and open the template in the editor.
   section {
     min-height: 1024px;
   }
+  section.section-one {
+    min-height: initial;
+  }
   .text-content-title.text-content-title {
     font-size: 5vw;
   }
@@ -817,6 +814,12 @@ and open the template in the editor.
 /*  #Mobile (Portrait) 320px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 100px) and (max-width: 479px) {
+  .show-on-mobile {
+    display: block !important;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
   .navbar .nav-btn {
     -ms-flex-preferred-size: 15vw;
         flex-basis: 15vw;
