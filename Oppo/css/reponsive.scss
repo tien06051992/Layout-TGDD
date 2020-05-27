@@ -375,6 +375,20 @@ and open the template in the editor.
   .m-center {
     text-align: center;
   }
+
+  .navbar {
+    .navbar-list {
+      ul li {
+        margin: 0 8px;
+      }
+    }
+    .nav-btn {
+      .oppo-purchase-button {
+        padding: 8px 24px;
+      }
+    }
+  }
+
   .section-two {
     .section-two__battery {
       margin: 50px 0;
@@ -954,6 +968,12 @@ and open the template in the editor.
 /*  #Mobile (Portrait) 320px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 100px) and (max-width: 479px) {
+  .navbar {
+    .nav-btn {
+      flex-basis: 15vw;
+    }
+  }
+
   .text-content-title {
     &#{&} {
       font-size: 6.5vw;

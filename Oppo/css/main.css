@@ -809,6 +809,10 @@
   cursor: pointer;
 }
 
+.footer .footer-contact {
+  margin-bottom: 20px;
+}
+
 .footer .footer-contact h2 {
   font-size: 16px;
   color: #ffffff;
