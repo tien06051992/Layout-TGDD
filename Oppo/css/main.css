@@ -27,7 +27,7 @@
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1380px;
   width: 100%;
 }
 
@@ -40,17 +40,17 @@
 }
 
 .text-content-title {
-  font-size: 50px;
+  font-size: 48px;
   font-family: "Oppo-2019044a-Black", Arial, sans-serif;
 }
 
 .text-content-subtitle {
-  font-size: 34px;
+  font-size: 32px;
   font-family: "Oppo-2019044a-Bold", Arial, sans-serif;
 }
 
 .text-content-description {
-  font-size: 23px;
+  font-size: 22px;
   font-family: "Oppo-2019044a-Regular", Arial, sans-serif;
 }
 
@@ -83,6 +83,28 @@
   display: inline-block;
   cursor: pointer;
   padding: 15px 0;
+}
+
+.navbar-list .nav-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-list .nav-btn .oppo-purchase-button {
+  width: auto;
+  color: #fff;
+  background-color: #05b570;
+  padding: 8px 30px;
+  border-radius: 22px;
+  display: inline-block;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -224,14 +246,14 @@
 }
 
 .section-one__promotion .promotion__offer .offer__number {
-  font-size: 3vw;
+  font-size: 48px;
   font-weight: bold;
   color: white;
   margin-top: 20px;
 }
 
 .section-one__promotion .promotion__offer .offer__number__unit {
-  font-size: 2vw;
+  font-size: 32px;
 }
 
 .section-one__promotion .promotion__line {
@@ -467,7 +489,7 @@
 }
 
 .section-three__screen .screen__specs .specs__details + .specs__details {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .section-three__screen .screen__specs .specs__details .details__number__fhd {
@@ -680,6 +702,9 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .section-six__figure .camera-wrapper .camera-line-1 {
@@ -687,7 +712,7 @@
   position: absolute;
   top: 48%;
   left: 27%;
-  padding-left: 10%;
+  width: 33.5%;
 }
 
 .section-six__figure .camera-wrapper .camera-line-2 {
@@ -695,8 +720,8 @@
   position: absolute;
   top: 53%;
   left: 21%;
-  padding-left: 16%;
   padding-top: 2%;
+  width: 39.5%;
 }
 
 .section-six__figure .camera-wrapper .camera-line-3 {
@@ -704,8 +729,8 @@
   position: absolute;
   top: 44%;
   left: 16%;
-  padding-left: 21%;
   padding-top: 17%;
+  width: 44.5%;
 }
 
 .section-six__figure .camera-wrapper .camera-line-4 {
@@ -713,8 +738,8 @@
   position: absolute;
   top: 35%;
   left: 12%;
-  padding-left: 25%;
   padding-top: 31%;
+  width: 48.6%;
 }
 
 .section-seven {
@@ -771,7 +796,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  cursor: pointer;
 }
 
 .footer .footer-nav dt {
@@ -782,6 +806,7 @@
 
 .footer .footer-nav dd {
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .footer .footer-contact h2 {
@@ -797,6 +822,7 @@
 
 .footer .footer-contact ul li {
   list-style: none;
+  cursor: pointer;
 }
 
 .footer .contact-bottom {
