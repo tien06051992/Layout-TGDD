@@ -77,10 +77,6 @@ and open the template in the editor.
   .section-six .section-six__camera__text-wrapper .text-content-description {
     font-size: 1.5vw;
   }
-  .section-six .section-six__camera {
-    width: 34%;
-    left: 10%;
-  }
   .section-six .section-six__camera .camera__description {
     font-size: 20px;
   }
@@ -98,16 +94,13 @@ and open the template in the editor.
     padding: 0 30px;
   }
   .text-content-title.text-content-title {
-    font-size: 3.5vw;
+    font-size: 3.2vw;
   }
   .text-content-subtitle.text-content-subtitle {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
   }
   .text-content-description.text-content-description {
-    font-size: 2vw;
-  }
-  .m-center {
-    text-align: center;
+    font-size: 1.6vw;
   }
   .section-two .section-two__battery {
     text-align: left;
@@ -170,9 +163,6 @@ and open the template in the editor.
   }
   .section-seven .night-mode__text .night-mode__specs {
     margin: 40px 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .section-one .section-one__headline {
     left: 5%;
@@ -253,18 +243,11 @@ and open the template in the editor.
   .section-one .section-one__price .price__unit {
     font-size: 3vw;
   }
-  .section-six .section-six__camera {
-    text-align: left;
-    width: 42%;
-    left: 5%;
+  .section-six .section-six__camera__text-wrapper {
+    padding: 50px 25px;
   }
   .section-six .camera__subtitle {
     margin: 30px 0;
-  }
-  .section-six .section-six__figure .camera-wrapper {
-    bottom: 0;
-    left: 88px;
-    width: 700px;
   }
   .section-six .section-six__figure .camera-wrapper .camera-line {
     font-size: 1.5vw;

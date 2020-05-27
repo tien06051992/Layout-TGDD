@@ -100,9 +100,6 @@ and open the template in the editor.
     }
 
     .section-six__camera {
-      width: 34%;
-      left: 10%;
-
       .camera__description {
         font-size: 20px;
       }
@@ -131,22 +128,18 @@ and open the template in the editor.
 
   .text-content-title {
     &#{&} {
-      font-size: 3.5vw;
+      font-size: 3.2vw;
     }
   }
   .text-content-subtitle {
     &#{&} {
-      font-size: 2.5vw;
+      font-size: 2.2vw;
     }
   }
   .text-content-description {
     &#{&} {
-      font-size: 2vw;
+      font-size: 1.6vw;
     }
-  }
-
-  .m-center {
-    text-align: center;
   }
 
   .section-two {
@@ -234,7 +227,6 @@ and open the template in the editor.
 
       .night-mode__specs {
         margin: 40px 0;
-        justify-content: center;
       }
     }
   }
@@ -337,21 +329,14 @@ and open the template in the editor.
   }
 
   .section-six {
-    .section-six__camera {
-      text-align: left;
-      width: 42%;
-      left: 5%;
+    .section-six__camera__text-wrapper {
+      padding: 50px 25px;
     }
     .camera__subtitle {
       margin: 30px 0;
     }
-
     .section-six__figure {
       .camera-wrapper {
-        bottom: 0;
-        left: 88px;
-        width: 700px;
-
         .camera-line {
           font-size: 1.5vw;
         }
