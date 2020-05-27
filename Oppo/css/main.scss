@@ -45,16 +45,19 @@
 
 .navbar {
   background-color: white;
-}
 
-.navbar-header {
-  .icon-bar {
-    background-color: black;
+  .navbar-header {
+    padding: 10px 0;
+
+    .icon-bar {
+      background-color: black;
+    }
   }
 }
 
 .navbar-list {
   display: flex;
+  padding: 10px 0;
 
   ul {
     flex: 1 1 auto;
@@ -87,8 +90,16 @@
       font-size: 16px;
     }
   }
+}
 
-  @media screen and (max-width: 767px) {
+.navbar-region {
+  padding: 15px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-list {
+    padding: 0;
     flex-direction: column;
 
     ul {
@@ -98,11 +109,6 @@
       }
     }
   }
-}
-
-.navbar-region {
-  padding: 15px 0;
-  text-align: center;
 }
 
 .section-one {
