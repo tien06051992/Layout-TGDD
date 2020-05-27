@@ -956,6 +956,9 @@ and open the template in the editor.
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .section-one {
+    height: calc(100vh - 70px);
+  }
   .section-one .section-one__headline {
     left: 15px;
     top: 135px;
@@ -1075,7 +1078,7 @@ and open the template in the editor.
     height: 100vh;
   }
   .section-six .section-six__camera__text-wrapper {
-    padding: 20px 25px;
+    padding: 20px 15px;
   }
   .section-six .section-six__camera {
     width: 90%;

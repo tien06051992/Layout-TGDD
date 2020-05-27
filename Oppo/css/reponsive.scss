@@ -1140,6 +1140,8 @@ and open the template in the editor.
     }
   }
   .section-one {
+    height: calc(100vh - 70px);
+
     .section-one__headline {
       left: 15px;
       top: 135px;
@@ -1269,7 +1271,7 @@ and open the template in the editor.
     background-position: 68%;
     height: 100vh;
     .section-six__camera__text-wrapper {
-      padding: 20px 25px;
+      padding: 20px 15px;
     }
 
     .section-six__camera {
