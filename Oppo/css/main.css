@@ -154,6 +154,7 @@
   width: 100%;
   bottom: 0;
   left: 0;
+  text-align: center;
 }
 
 .section-one__phone-wrapper-desktop .section-one__spiral-pink {
@@ -161,6 +162,7 @@
   top: -37%;
   left: 0;
   width: 100%;
+  max-width: 2500px;
   height: auto;
 }
 
@@ -169,6 +171,7 @@
   z-index: 1;
   width: 100%;
   height: auto;
+  max-width: 2500px;
 }
 
 .section-one__headline {
@@ -654,7 +657,7 @@
 }
 
 .section-six {
-  background-image: url("../images/section_6_bg.png");
+  background-image: url("../images/section_6_bg.gif");
   background-size: cover;
   background-position: 50%;
   overflow: hidden;
