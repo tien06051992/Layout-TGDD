@@ -875,6 +875,11 @@ and open the template in the editor.
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .section-three .screen__content-wrapper .screen__text__headline .screen-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .section-three .screen__content-wrapper .screen__text__headline .screen-subtitle {
     margin: 30px 0;
   }

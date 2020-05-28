@@ -542,8 +542,9 @@
 
     .phone-back__title-wrapper {
       .phone-back__title {
-        display: inline-flex;
-        flex-direction: column;
+        span:first-child {
+          display: block;
+        }
       }
     }
 

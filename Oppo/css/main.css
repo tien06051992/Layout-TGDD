@@ -642,14 +642,8 @@
   padding-left: 50px;
 }
 
-.section-five .phone-back__text .phone-back__title-wrapper .phone-back__title {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.section-five .phone-back__text .phone-back__title-wrapper .phone-back__title span:first-child {
+  display: block;
 }
 
 .section-five .phone-back__text .phone-back__subtitle {
